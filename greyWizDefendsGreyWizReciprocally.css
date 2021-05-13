@@ -1,0 +1,6211 @@
+.blueWizBackgroundColor{
+  background-color: rgb(43, 146, 214);
+}
+
+.greyWizBackgroundColor{
+  background-color: rgb(111, 119, 113);
+}
+
+.redWizBackgroundColor {
+  background-color:rgb(194, 75, 85);
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+#screen {
+    position: relative;    
+}
+
+#whiteBackground,
+
+#blueWizArmPcAttackLeft, #blueWizArmPcAttackRight, #blueWizArmPcDefaultLeft, #blueWizArmPcDefaultRight, #blueWizArmPcDefendLeft, #blueWizArmPcDefendRight, #blueWizArmPcClenchLeft,
+#blueWizArmPcClenchRight, #blueWizPcWithoutArmsOrArchimedes, #magicMissile_0PcLeft, #magicMissile_0PcRight, #magicMissile_1PcLeft, #magicMissile_1PcRight, #magicMissile_2PcLeft, 
+#magicMissile_2PcRight, #magicMissile_3PcLeft, #magicMissile_3PcRight, #magicMissileCondensation_0PcLeft, #magicMissileCondensation_0PcRight, #magicMissileCondensation_1PcLeft, 
+#magicMissileCondensation_1PcRight, #magicMissileCondensation_2PcLeft, #magicMissileCondensation_2PcRight, #magicMissileCondensation_3PcLeft, #magicMissileCondensation_3PcRight,
+#magicMissileCondensation_4PcLeft, #magicMissileCondensation_4PcRight, #magicMissileCondensation_5PcLeft, #magicMissileCondensation_5PcRight, #magicMissilePcDefendedLeft, 
+#magicMissilePcDefendedRight, #magicMissileSplosionPcDefendedLeft, #magicMissileSplosionPcDefendedRight, #magicMissileSplosionPcLeft, #magicMissileSplosionPcRight, #star_0PcLeft,
+#star_0PcRight, #star_1PcLeft, #star_1PcRight, #star_2PcLeft, #star_2PcRight, #star_3PcLeft, #star_3PcRight, #star_4PcLeft, #star_4PcRight,
+
+#blueWizArmNpcAttackLeft, #blueWizArmNpcAttackRight, #blueWizArmNpcDefaultLeft, #blueWizArmNpcDefaultRight, #blueWizArmNpcDefendLeft, #blueWizArmNpcDefendRight, #blueWizArmNpcClenchLeft,
+#blueWizArmNpcClenchRight, #blueWizNpcWithoutArmsOrArchimedes, #magicMissile_0NpcLeft, #magicMissile_0NpcRight, #magicMissile_1NpcLeft, #magicMissile_1NpcRight, #magicMissile_2NpcLeft, 
+#magicMissile_2NpcRight, #magicMissile_3NpcLeft, #magicMissile_3NpcRight, #magicMissileCondensation_0NpcLeft, #magicMissileCondensation_0NpcRight, #magicMissileCondensation_1NpcLeft, 
+#magicMissileCondensation_1NpcRight, #magicMissileCondensation_2NpcLeft, #magicMissileCondensation_2NpcRight, #magicMissileCondensation_3NpcLeft, #magicMissileCondensation_3NpcRight,
+#magicMissileCondensation_4NpcLeft, #magicMissileCondensation_4NpcRight, #magicMissileCondensation_5NpcLeft, #magicMissileCondensation_5NpcRight, #magicMissileNpcDefendedLeft, 
+#magicMissileNpcDefendedRight, #magicMissileSplosionNpcDefendedLeft, #magicMissileSplosionNpcDefendedRight, #magicMissileSplosionNpcLeft, #magicMissileSplosionNpcRight, #star_0NpcLeft,
+#star_0NpcRight, #star_1NpcLeft, #star_1NpcRight, #star_2NpcLeft, #star_2NpcRight, #star_3NpcLeft, #star_3NpcRight, #star_4NpcLeft, #star_4NpcRight,
+
+/*greyWizPcModels*/
+
+#greyWizArmPcDefaultLeft,#greyWizArmPcDefaultRight, #greyWizArmPcDefendLeft, #greyWizArmPcDefendRight, #greyWizPcWithoutArms, #greyWizPcStruckLeft, #greyWizPcStruckRight,
+#greyWizPcWithoutHands, #greyWizHandPcDefaultLeft, #greyWizHandPc15DegreesLeft, #greyWizHandPc30DegreesLeft, #greyWizHandPc45DegreesLeft, #greyWizHandPcDefaultRight, 
+#greyWizHandPc345DegreesRight, #greyWizHandPc330DegreesRight, #greyWizHandPc315DegreesRight,
+
+/*greyWizPcLeftAttack*/
+
+#protrudingFireworkTop_0PcLeft, #protrudingFireworkTop_1PcLeft, #protrudingFireworkTop_2PcLeft, #protrudingFireworkTop_3PcLeft, #protrudingFireworkTop_4PcLeft, 
+#protrudingFireworkTop_5PcLeft, #protrudingFireworkTop_6PcLeft, #protrudingFireworkMiddle_0PcLeft, #protrudingFireworkMiddle_1PcLeft, #protrudingFireworkMiddle_2PcLeft, 
+#protrudingFireworkMiddle_3PcLeft, #protrudingFireworkMiddle_4PcLeft, #protrudingFireworkMiddle_5PcLeft, #protrudingFireworkMiddle_6PcLeft, #protrudingFireworkBottom_0PcLeft, 
+#protrudingFireworkBottom_1PcLeft, #protrudingFireworkBottom_2PcLeft, #protrudingFireworkBottom_3PcLeft, #protrudingFireworkBottom_4PcLeft, #protrudingFireworkBottom_5PcLeft, 
+#protrudingFireworkBottom_6PcLeft, #topFirework_0PcLeft, #topFirework_1PcLeft, #topFirework_2PcLeft, #topFirework_3PcLeft, #topFirework_4PcLeft, #topFirework_5PcLeft, 
+#topFirework_6PcLeft, #middleFirework_0PcLeft, #middleFirework_1PcLeft, #middleFirework_2PcLeft, #middleFirework_3PcLeft, #middleFirework_4PcLeft, #middleFirework_5PcLeft, 
+#bottomFirework_0PcLeft, #bottomFirework_1PcLeft, #bottomFirework_2PcLeft, #bottomFirework_3PcLeft, #bottomFirework_4PcLeft, #middleFirework_3Z_1PcLeft, #middleFirework_4Z_2PcLeft,  
+#bottomFirework_3Z_1PcLeft, #middleFirework_5Z_1PcLeft, #bottomFirework_4Z_2PcLeft, #axeFireworkExplosionPcLeft, #axeSmokePcFullMinus10Left, #axeSmokePcFullMinus9Left, 
+#axeSmokePcFullMinus8Left, #axeSmokePcFullMinus7Left, #axeSmokePcFullMinus6Left, #axeSmokePcFullMinus5Left, #axeSmokePcFullMinus4Left, #axeSmokePcFullMinus3Left, 
+#axeSmokePcFullMinus2Left, #axeSmokePcFullMinus1Left, #axeSmokePcFullLeft, #bowFireworkExplosionPcLeft, #bowSmokePcFullMinus10Left, #bowSmokePcFullMinus9Left, #bowSmokePcFullMinus8Left, 
+#bowSmokePcFullMinus7Left, #bowSmokePcFullMinus6Left, #bowSmokePcFullMinus5Left, #bowSmokePcFullMinus4Left, #bowSmokePcFullMinus3Left, #bowSmokePcFullMinus2Left, 
+#bowSmokePcFullMinus1Left, #bowSmokePcFullLeft, #swordFireworkExplosionPcLeft, #swordSmokePcFullMinus10Left, #swordSmokePcFullMinus9Left, #swordSmokePcFullMinus8Left, 
+#swordSmokePcFullMinus7Left, #swordSmokePcFullMinus6Left, #swordSmokePcFullMinus5Left, #swordSmokePcFullMinus4Left, #swordSmokePcFullMinus3Left, #swordSmokePcFullMinus2Left, 
+#swordSmokePcFullMinus1Left, #swordSmokePcFullLeft, #axeBowFireworkExplosionPcLeft, #axeBowSmokePcFullMinus10Left, #axeBowSmokePcFullMinus9Left, #axeBowSmokePcFullMinus8Left, 
+#axeBowSmokePcFullMinus7Left, #axeBowSmokePcFullMinus6Left, #axeBowSmokePcFullMinus5Left, #axeBowSmokePcFullMinus4Left, #axeBowSmokePcFullMinus3Left, #axeBowSmokePcFullMinus2Left, 
+#axeBowSmokePcFullMinus1Left, #axeBowSmokePcFullLeft, #axeSwordFireworkExplosionPcLeft, #axeSwordSmokePcFullMinus10Left, #axeSwordSmokePcFullMinus9Left, #axeSwordSmokePcFullMinus8Left, 
+#axeSwordSmokePcFullMinus7Left, #axeSwordSmokePcFullMinus6Left, #axeSwordSmokePcFullMinus5Left, #axeSwordSmokePcFullMinus4Left, #axeSwordSmokePcFullMinus3Left, 
+#axeSwordSmokePcFullMinus2Left, #axeSwordSmokePcFullMinus1Left, #axeSwordSmokePcFullLeft, #bowSwordFireworkExplosionPcLeft, #bowSwordSmokePcFullMinus10Left, 
+#bowSwordSmokePcFullMinus9Left, #bowSwordSmokePcFullMinus8Left, #bowSwordSmokePcFullMinus7Left, #bowSwordSmokePcFullMinus6Left, #bowSwordSmokePcFullMinus5Left, 
+#bowSwordSmokePcFullMinus4Left, #bowSwordSmokePcFullMinus3Left, #bowSwordSmokePcFullMinus2Left, #bowSwordSmokePcFullMinus1Left, #bowSwordSmokePcFullLeft, 
+#axeBowSwordFireworkExplosionPcLeft, #axeBowSwordSmokePcFullMinus10Left, #axeBowSwordSmokePcFullMinus9Left, #axeBowSwordSmokePcFullMinus8Left, #axeBowSwordSmokePcFullMinus7Left, 
+#axeBowSwordSmokePcFullMinus6Left, #axeBowSwordSmokePcFullMinus5Left, #axeBowSwordSmokePcFullMinus4Left, #axeBowSwordSmokePcFullMinus3Left, #axeBowSwordSmokePcFullMinus2Left, 
+#axeBowSwordSmokePcFullMinus1Left, #axeBowSwordSmokePcFullLeft, #fireworkAxePcLeft, #fireworkBowPcLeft, #fireworkSwordPcLeft, #fireworkAxeShimmerPcFullLeft, 
+#fireworkBowShimmerPcFullLeft, #fireworkSwordShimmerPcFullLeft, #bottomFirework_5PcLeft, #middleFirework_6PcLeft, #topFirework_7PcLeft, #bottomFirework_5Z_6PcLeft, 
+#middleFirework_6Z_5PcLeft, #topFirework_7Z_4PcLeft, #middleFirework_6Z_3PcLeft,#bottomFirework_5Z_2PcLeft, #middleFirework_6Z_1PcLeft, #topFirework_7Z_0PcLeft, 
+#axeFireworkExplosionPcDefendedLeft, #axeSmokePcFullMinus9DefendedLeft, #axeSmokePcFullMinus8DefendedLeft, #axeSmokePcFullMinus7DefendedLeft, 
+#axeSmokePcFullMinus6DefendedLeft, #axeSmokePcFullMinus5DefendedLeft, #axeSmokePcFullMinus4DefendedLeft, #axeSmokePcFullMinus3DefendedLeft, #axeSmokePcFullMinus2DefendedLeft, 
+#axeSmokePcFullMinus1DefendedLeft, #axeSmokePcFullDefendedLeft, #bowFireworkExplosionPcDefendedLeft, #bowSmokePcFullMinus9DefendedLeft, #bowSmokePcFullMinus8DefendedLeft, 
+#bowSmokePcFullMinus7DefendedLeft, #bowSmokePcFullMinus6DefendedLeft, #bowSmokePcFullMinus5DefendedLeft, #bowSmokePcFullMinus4DefendedLeft, #bowSmokePcFullMinus3DefendedLeft, 
+#bowSmokePcFullMinus2DefendedLeft, #bowSmokePcFullMinus1DefendedLeft, #bowSmokePcFullDefendedLeft, #swordFireworkExplosionPcDefendedLeft, #swordSmokePcFullMinus9DefendedLeft, 
+#swordSmokePcFullMinus8DefendedLeft, #swordSmokePcFullMinus7DefendedLeft, #swordSmokePcFullMinus6DefendedLeft, #swordSmokePcFullMinus5DefendedLeft, #swordSmokePcFullMinus4DefendedLeft, 
+#swordSmokePcFullMinus3DefendedLeft, #swordSmokePcFullMinus2DefendedLeft, #swordSmokePcFullMinus1DefendedLeft, #swordSmokePcFullDefendedLeft, #axeBowFireworkExplosionPcDefendedLeft, 
+#axeBowSmokePcFullMinus9DefendedLeft, #axeBowSmokePcFullMinus8DefendedLeft, #axeBowSmokePcFullMinus7DefendedLeft, #axeBowSmokePcFullMinus6DefendedLeft, 
+#axeBowSmokePcFullMinus5DefendedLeft, #axeBowSmokePcFullMinus4DefendedLeft, #axeBowSmokePcFullMinus3DefendedLeft, #axeBowSmokePcFullMinus2DefendedLeft, 
+#axeBowSmokePcFullMinus1DefendedLeft, #axeBowSmokePcFullDefendedLeft, #axeSwordFireworkExplosionPcDefendedLeft, #axeSwordSmokePcFullMinus9DefendedLeft, 
+#axeSwordSmokePcFullMinus8DefendedLeft, #axeSwordSmokePcFullMinus7DefendedLeft, #axeSwordSmokePcFullMinus6DefendedLeft, #axeSwordSmokePcFullMinus5DefendedLeft, 
+#axeSwordSmokePcFullMinus4DefendedLeft, #axeSwordSmokePcFullMinus3DefendedLeft, #axeSwordSmokePcFullMinus2DefendedLeft, #axeSwordSmokePcFullMinus1DefendedLeft, 
+#axeSwordSmokePcFullDefendedLeft, #bowSwordFireworkExplosionPcDefendedLeft, #bowSwordSmokePcFullMinus9DefendedLeft, #bowSwordSmokePcFullMinus8DefendedLeft, 
+#bowSwordSmokePcFullMinus7DefendedLeft, #bowSwordSmokePcFullMinus6DefendedLeft, #bowSwordSmokePcFullMinus5DefendedLeft, #bowSwordSmokePcFullMinus4DefendedLeft, 
+#bowSwordSmokePcFullMinus3DefendedLeft, #bowSwordSmokePcFullMinus2DefendedLeft, #bowSwordSmokePcFullMinus1DefendedLeft, #bowSwordSmokePcFullDefendedLeft, 
+#axeBowSwordFireworkExplosionPcDefendedLeft, #axeBowSwordSmokePcFullMinus9DefendedLeft, #axeBowSwordSmokePcFullMinus8DefendedLeft, #axeBowSwordSmokePcFullMinus7DefendedLeft, 
+#axeBowSwordSmokePcFullMinus6DefendedLeft, #axeBowSwordSmokePcFullMinus5DefendedLeft, #axeBowSwordSmokePcFullMinus4DefendedLeft, #axeBowSwordSmokePcFullMinus3DefendedLeft, 
+#axeBowSwordSmokePcFullMinus2DefendedLeft, #axeBowSwordSmokePcFullMinus1DefendedLeft, #axeBowSwordSmokePcFullDefendedLeft, #fireworkAxePcDefendedLeft, #fireworkBowPcDefendedLeft, 
+#fireworkSwordPcDefendedLeft, #fireworkAxeShimmerPcFullDefendedLeft, #fireworkBowShimmerPcFullDefendedLeft, #fireworkSwordShimmerPcFullDefendedLeft,
+
+/*greyWizPcRightAttack*/
+
+#protrudingFireworkTop_0PcRight, #protrudingFireworkTop_1PcRight, #protrudingFireworkTop_2PcRight, #protrudingFireworkTop_3PcRight, 
+#protrudingFireworkTop_4PcRight, #protrudingFireworkTop_5PcRight, #protrudingFireworkTop_6PcRight, #protrudingFireworkMiddle_0PcRight, 
+#protrudingFireworkMiddle_1PcRight, #protrudingFireworkMiddle_2PcRight, #protrudingFireworkMiddle_3PcRight, #protrudingFireworkMiddle_4PcRight, #protrudingFireworkMiddle_5PcRight, 
+#protrudingFireworkMiddle_6PcRight, #protrudingFireworkBottom_0PcRight, #protrudingFireworkBottom_1PcRight, #protrudingFireworkBottom_2PcRight, 
+#protrudingFireworkBottom_3PcRight, #protrudingFireworkBottom_4PcRight, #protrudingFireworkBottom_5PcRight, #protrudingFireworkBottom_6PcRight, 
+#topFirework_0PcRight, #topFirework_1PcRight, #topFirework_2PcRight, #topFirework_3PcRight, #topFirework_4PcRight, #topFirework_5PcRight, #topFirework_6PcRight, 
+#middleFirework_0PcRight, #middleFirework_1PcRight, #middleFirework_2PcRight, #middleFirework_3PcRight, #middleFirework_4PcRight, #middleFirework_5PcRight, 
+#bottomFirework_0PcRight, #bottomFirework_1PcRight, #bottomFirework_2PcRight, #bottomFirework_3PcRight, #bottomFirework_4PcRight, #middleFirework_3Z_1PcRight, 
+#middleFirework_4Z_2PcRight, #bottomFirework_3Z_1PcRight, #middleFirework_5Z_1PcRight, #bottomFirework_4Z_2PcRight, #axeFireworkExplosionPcRight, #axeSmokePcFullMinus10Right, 
+#axeSmokePcFullMinus9Right, #axeSmokePcFullMinus8Right, #axeSmokePcFullMinus7Right, #axeSmokePcFullMinus6Right, #axeSmokePcFullMinus5Right, #axeSmokePcFullMinus4Right, 
+#axeSmokePcFullMinus3Right, #axeSmokePcFullMinus2Right, #axeSmokePcFullMinus1Right, #axeSmokePcFullRight, #bowFireworkExplosionPcRight, #bowSmokePcFullMinus10Right, 
+#bowSmokePcFullMinus9Right, #bowSmokePcFullMinus8Right, #bowSmokePcFullMinus7Right, #bowSmokePcFullMinus6Right, #bowSmokePcFullMinus5Right, #bowSmokePcFullMinus4Right, 
+#bowSmokePcFullMinus3Right, #bowSmokePcFullMinus2Right, #bowSmokePcFullMinus1Right, #bowSmokePcFullRight, #swordFireworkExplosionPcRight, #swordSmokePcFullMinus10Right, 
+#swordSmokePcFullMinus9Right, #swordSmokePcFullMinus8Right, #swordSmokePcFullMinus7Right, #swordSmokePcFullMinus6Right, #swordSmokePcFullMinus5Right, #swordSmokePcFullMinus4Right, 
+#swordSmokePcFullMinus3Right, #swordSmokePcFullMinus2Right, #swordSmokePcFullMinus1Right, #swordSmokePcFullRight, #axeBowFireworkExplosionPcRight, #axeBowSmokePcFullMinus10Right, 
+#axeBowSmokePcFullMinus9Right, #axeBowSmokePcFullMinus8Right, #axeBowSmokePcFullMinus7Right, #axeBowSmokePcFullMinus6Right, #axeBowSmokePcFullMinus5Right, #axeBowSmokePcFullMinus4Right, 
+#axeBowSmokePcFullMinus3Right, #axeBowSmokePcFullMinus2Right, #axeBowSmokePcFullMinus1Right, #axeBowSmokePcFullRight, #axeSwordFireworkExplosionPcRight, 
+#axeSwordSmokePcFullMinus10Right, #axeSwordSmokePcFullMinus9Right, #axeSwordSmokePcFullMinus8Right, #axeSwordSmokePcFullMinus7Right, #axeSwordSmokePcFullMinus6Right, 
+#axeSwordSmokePcFullMinus5Right, #axeSwordSmokePcFullMinus4Right, #axeSwordSmokePcFullMinus3Right, #axeSwordSmokePcFullMinus2Right, #axeSwordSmokePcFullMinus1Right, 
+#axeSwordSmokePcFullRight, #bowSwordFireworkExplosionPcRight, #bowSwordSmokePcFullMinus10Right, #bowSwordSmokePcFullMinus9Right, #bowSwordSmokePcFullMinus8Right, 
+#bowSwordSmokePcFullMinus7Right, #bowSwordSmokePcFullMinus6Right, #bowSwordSmokePcFullMinus5Right, #bowSwordSmokePcFullMinus4Right, #bowSwordSmokePcFullMinus3Right, 
+#bowSwordSmokePcFullMinus2Right, #bowSwordSmokePcFullMinus1Right, #bowSwordSmokePcFullRight, #axeBowSwordFireworkExplosionPcRight, #axeBowSwordSmokePcFullMinus10Right, 
+#axeBowSwordSmokePcFullMinus9Right, #axeBowSwordSmokePcFullMinus8Right, #axeBowSwordSmokePcFullMinus7Right, #axeBowSwordSmokePcFullMinus6Right, #axeBowSwordSmokePcFullMinus5Right, 
+#axeBowSwordSmokePcFullMinus4Right, #axeBowSwordSmokePcFullMinus3Right, #axeBowSwordSmokePcFullMinus2Right, #axeBowSwordSmokePcFullMinus1Right, #axeBowSwordSmokePcFullRight, 
+#fireworkAxePcRight, #fireworkBowPcRight, #fireworkSwordPcRight, #fireworkAxeShimmerPcFullRight, #fireworkBowShimmerPcFullRight, #fireworkSwordShimmerPcFullRight, 
+#bottomFirework_5PcRight, #middleFirework_6PcRight, #topFirework_7PcRight, #bottomFirework_5Z_6PcRight, #middleFirework_6Z_5PcRight, #topFirework_7Z_4PcRight, 
+#middleFirework_6Z_3PcRight,#bottomFirework_5Z_2PcRight, #middleFirework_6Z_1PcRight, #topFirework_7Z_0PcRight, #axeFireworkExplosionPcDefendedRight, #axeSmokePcFullMinus9DefendedRight, 
+#axeSmokePcFullMinus8DefendedRight, #axeSmokePcFullMinus7DefendedRight, #axeSmokePcFullMinus6DefendedRight, #axeSmokePcFullMinus5DefendedRight, #axeSmokePcFullMinus4DefendedRight, 
+#axeSmokePcFullMinus3DefendedRight, #axeSmokePcFullMinus2DefendedRight, #axeSmokePcFullMinus1DefendedRight, #axeSmokePcFullDefendedRight, #bowFireworkExplosionPcDefendedRight, 
+#bowSmokePcFullMinus9DefendedRight, #bowSmokePcFullMinus8DefendedRight, #bowSmokePcFullMinus7DefendedRight, #bowSmokePcFullMinus6DefendedRight, #bowSmokePcFullMinus5DefendedRight, 
+#bowSmokePcFullMinus4DefendedRight, #bowSmokePcFullMinus3DefendedRight, #bowSmokePcFullMinus2DefendedRight, #bowSmokePcFullMinus1DefendedRight, #bowSmokePcFullDefendedRight, 
+#swordFireworkExplosionPcDefendedRight, #swordSmokePcFullMinus9DefendedRight, #swordSmokePcFullMinus8DefendedRight, #swordSmokePcFullMinus7DefendedRight, 
+#swordSmokePcFullMinus6DefendedRight, #swordSmokePcFullMinus5DefendedRight, #swordSmokePcFullMinus4DefendedRight, #swordSmokePcFullMinus3DefendedRight, 
+#swordSmokePcFullMinus2DefendedRight, #swordSmokePcFullMinus1DefendedRight, #swordSmokePcFullDefendedRight, #axeBowFireworkExplosionPcDefendedRight, 
+#axeBowSmokePcFullMinus9DefendedRight, #axeBowSmokePcFullMinus8DefendedRight, #axeBowSmokePcFullMinus7DefendedRight, #axeBowSmokePcFullMinus6DefendedRight, 
+#axeBowSmokePcFullMinus5DefendedRight, #axeBowSmokePcFullMinus4DefendedRight, #axeBowSmokePcFullMinus3DefendedRight, #axeBowSmokePcFullMinus2DefendedRight, 
+#axeBowSmokePcFullMinus1DefendedRight, #axeBowSmokePcFullDefendedRight, #axeSwordFireworkExplosionPcDefendedRight, #axeSwordSmokePcFullMinus9DefendedRight, 
+#axeSwordSmokePcFullMinus8DefendedRight, #axeSwordSmokePcFullMinus7DefendedRight, #axeSwordSmokePcFullMinus6DefendedRight, #axeSwordSmokePcFullMinus5DefendedRight, 
+#axeSwordSmokePcFullMinus4DefendedRight, #axeSwordSmokePcFullMinus3DefendedRight, #axeSwordSmokePcFullMinus2DefendedRight, #axeSwordSmokePcFullMinus1DefendedRight, 
+#axeSwordSmokePcFullDefendedRight, #bowSwordFireworkExplosionPcDefendedRight, #bowSwordSmokePcFullMinus9DefendedRight, #bowSwordSmokePcFullMinus8DefendedRight, 
+#bowSwordSmokePcFullMinus7DefendedRight, #bowSwordSmokePcFullMinus6DefendedRight, #bowSwordSmokePcFullMinus5DefendedRight, #bowSwordSmokePcFullMinus4DefendedRight, 
+#bowSwordSmokePcFullMinus3DefendedRight, #bowSwordSmokePcFullMinus2DefendedRight, #bowSwordSmokePcFullMinus1DefendedRight, #bowSwordSmokePcFullDefendedRight, 
+#axeBowSwordFireworkExplosionPcDefendedRight, #axeBowSwordSmokePcFullMinus9DefendedRight, #axeBowSwordSmokePcFullMinus8DefendedRight, #axeBowSwordSmokePcFullMinus7DefendedRight, 
+#axeBowSwordSmokePcFullMinus6DefendedRight, #axeBowSwordSmokePcFullMinus5DefendedRight, #axeBowSwordSmokePcFullMinus4DefendedRight, #axeBowSwordSmokePcFullMinus3DefendedRight, 
+#axeBowSwordSmokePcFullMinus2DefendedRight, #axeBowSwordSmokePcFullMinus1DefendedRight, #axeBowSwordSmokePcFullDefendedRight, #fireworkAxePcDefendedRight, #fireworkBowPcDefendedRight, 
+#fireworkSwordPcDefendedRight, #fireworkAxeShimmerPcFullDefendedRight, #fireworkBowShimmerPcFullDefendedRight, #fireworkSwordShimmerPcFullDefendedRight,
+
+/*greyWizNpcModels*/
+
+#greyWizArmNpcDefaultLeft,#greyWizArmNpcDefaultRight, #greyWizArmNpcDefendLeft, #greyWizArmNpcDefendRight, #greyWizNpcWithoutArms, #greyWizNpcStruckLeft, #greyWizNpcStruckRight, 
+#greyWizNpcWithoutHands, #greyWizHandNpcDefaultLeft, #greyWizHandNpc15DegreesLeft, #greyWizHandNpc30DegreesLeft, #greyWizHandNpc45DegreesLeft, #greyWizHandNpcDefaultRight, 
+#greyWizHandNpc345DegreesRight, #greyWizHandNpc330DegreesRight, #greyWizHandNpc315DegreesRight, 
+
+/*greyWizNpcLeftAttack*/
+
+#protrudingFireworkTop_0NpcLeft, #protrudingFireworkTop_1NpcLeft, #protrudingFireworkTop_2NpcLeft, #protrudingFireworkTop_3NpcLeft, 
+#protrudingFireworkTop_4NpcLeft, #protrudingFireworkTop_5NpcLeft, #protrudingFireworkTop_6NpcLeft, #protrudingFireworkTop_7NpcLeft, #protrudingFireworkMiddle_0NpcLeft, 
+#protrudingFireworkMiddle_1NpcLeft, #protrudingFireworkMiddle_2NpcLeft, #protrudingFireworkMiddle_3NpcLeft, #protrudingFireworkMiddle_4NpcLeft, #protrudingFireworkMiddle_5NpcLeft, 
+#protrudingFireworkMiddle_6NpcLeft, #protrudingFireworkMiddle_7NpcLeft, #protrudingFireworkBottom_0NpcLeft, #protrudingFireworkBottom_1NpcLeft, #protrudingFireworkBottom_2NpcLeft, 
+#protrudingFireworkBottom_3NpcLeft, #protrudingFireworkBottom_4NpcLeft, #protrudingFireworkBottom_5NpcLeft, #protrudingFireworkBottom_6NpcLeft, #protrudingFireworkBottom_7NpcLeft, 
+#topFirework_0NpcLeft, #topFirework_1NpcLeft, #topFirework_2NpcLeft, #topFirework_3NpcLeft, #topFirework_4NpcLeft, #topFirework_5NpcLeft, #topFirework_6NpcLeft, 
+#middleFirework_0NpcLeft, #middleFirework_1NpcLeft, #middleFirework_2NpcLeft, #topFirework_3Z_1NpcLeft, #middleFirework_3NpcLeft, #middleFirework_4NpcLeft, #middleFirework_5NpcLeft, 
+#bottomFirework_0NpcLeft, #bottomFirework_1NpcLeft, #middleFirework_2Z_2NpcLeft, #bottomFirework_2NpcLeft, #middleFirework_3Z_2NpcLeft, #topFirework_4Z_1NpcLeft, 
+#bottomFirework_3NpcLeft, #middleFirework_4Z_2NpcLeft, #topFirework_5Z_1NpcLeft, #bottomFirework_4NpcLeft, #middleFirework_5Z_4NpcLeft, #topFirework_6Z_1NpcLeft, 
+#middleFirework_5Z_2NpcLeft, #topFirework_6Z_3NpcLeft, #axeFireworkExplosionNpcLeft, #axeSmokeNpcFullMinus10Left, #axeSmokeNpcFullMinus9Left, #axeSmokeNpcFullMinus8Left, 
+#axeSmokeNpcFullMinus7Left, #axeSmokeNpcFullMinus6Left, #axeSmokeNpcFullMinus5Left, #axeSmokeNpcFullMinus4Left, #axeSmokeNpcFullMinus3Left, #axeSmokeNpcFullMinus2Left, 
+#axeSmokeNpcFullMinus1Left, #axeSmokeNpcFullLeft, #bowFireworkExplosionNpcLeft, #bowSmokeNpcFullMinus10Left, #bowSmokeNpcFullMinus9Left, #bowSmokeNpcFullMinus8Left, 
+#bowSmokeNpcFullMinus7Left, #bowSmokeNpcFullMinus6Left, #bowSmokeNpcFullMinus5Left, #bowSmokeNpcFullMinus4Left, #bowSmokeNpcFullMinus3Left, #bowSmokeNpcFullMinus2Left, 
+#bowSmokeNpcFullMinus1Left, #bowSmokeNpcFullLeft, #swordFireworkExplosionNpcLeft, #swordSmokeNpcFullMinus10Left, #swordSmokeNpcFullMinus9Left, #swordSmokeNpcFullMinus8Left, 
+#swordSmokeNpcFullMinus7Left, #swordSmokeNpcFullMinus6Left, #swordSmokeNpcFullMinus5Left, #swordSmokeNpcFullMinus4Left, #swordSmokeNpcFullMinus3Left, #swordSmokeNpcFullMinus2Left, 
+#swordSmokeNpcFullMinus1Left, #swordSmokeNpcFullLeft, #axeBowFireworkExplosionNpcLeft, #axeBowSmokeNpcFullMinus10Left, #axeBowSmokeNpcFullMinus9Left, #axeBowSmokeNpcFullMinus8Left, 
+#axeBowSmokeNpcFullMinus7Left, #axeBowSmokeNpcFullMinus6Left, #axeBowSmokeNpcFullMinus5Left, #axeBowSmokeNpcFullMinus4Left, #axeBowSmokeNpcFullMinus3Left, #axeBowSmokeNpcFullMinus2Left, 
+#axeBowSmokeNpcFullMinus1Left, #axeBowSmokeNpcFullLeft, #axeSwordFireworkExplosionNpcLeft, #axeSwordSmokeNpcFullMinus10Left, #axeSwordSmokeNpcFullMinus9Left, 
+#axeSwordSmokeNpcFullMinus8Left, #axeSwordSmokeNpcFullMinus7Left, #axeSwordSmokeNpcFullMinus6Left, #axeSwordSmokeNpcFullMinus5Left, #axeSwordSmokeNpcFullMinus4Left, 
+#axeSwordSmokeNpcFullMinus3Left, #axeSwordSmokeNpcFullMinus2Left, #axeSwordSmokeNpcFullMinus1Left, #axeSwordSmokeNpcFullLeft, #bowSwordFireworkExplosionNpcLeft, 
+#bowSwordSmokeNpcFullMinus10Left, #bowSwordSmokeNpcFullMinus9Left, #bowSwordSmokeNpcFullMinus8Left, #bowSwordSmokeNpcFullMinus7Left, #bowSwordSmokeNpcFullMinus6Left, 
+#bowSwordSmokeNpcFullMinus5Left, #bowSwordSmokeNpcFullMinus4Left, #bowSwordSmokeNpcFullMinus3Left, #bowSwordSmokeNpcFullMinus2Left, #bowSwordSmokeNpcFullMinus1Left, 
+#bowSwordSmokeNpcFullLeft, #axeBowSwordFireworkExplosionNpcLeft, #axeBowSwordSmokeNpcFullMinus10Left, #axeBowSwordSmokeNpcFullMinus9Left, #axeBowSwordSmokeNpcFullMinus8Left, 
+#axeBowSwordSmokeNpcFullMinus7Left, #axeBowSwordSmokeNpcFullMinus6Left, #axeBowSwordSmokeNpcFullMinus5Left, #axeBowSwordSmokeNpcFullMinus4Left, #axeBowSwordSmokeNpcFullMinus3Left, 
+#axeBowSwordSmokeNpcFullMinus2Left, #axeBowSwordSmokeNpcFullMinus1Left, #axeBowSwordSmokeNpcFullLeft, #fireworkAxeNpcLeft, #fireworkBowNpcLeft, #fireworkSwordNpcLeft, 
+#fireworkAxeShimmerNpcFullLeft, #fireworkBowShimmerNpcFullLeft, #fireworkSwordShimmerNpcFullLeft, #bottomFirework_5NpcLeft, #middleFirework_6NpcLeft, #topFirework_7NpcLeft, 
+#bottomFirework_5Z_3NpcLeft, #middleFirework_6Z_2NpcLeft, #topFirework_7Z_1NpcLeft, #axeFireworkExplosionNpcDefendedLeft, #axeSmokeNpcFullMinus9DefendedLeft, #axeSmokeNpcFullMinus8DefendedLeft, 
+#axeSmokeNpcFullMinus7DefendedLeft, #axeSmokeNpcFullMinus6DefendedLeft, #axeSmokeNpcFullMinus5DefendedLeft, #axeSmokeNpcFullMinus4DefendedLeft, #axeSmokeNpcFullMinus3DefendedLeft, 
+#axeSmokeNpcFullMinus2DefendedLeft, #axeSmokeNpcFullMinus1DefendedLeft, #axeSmokeNpcFullDefendedLeft, #bowFireworkExplosionNpcDefendedLeft, #bowSmokeNpcFullMinus9DefendedLeft, 
+#bowSmokeNpcFullMinus8DefendedLeft, #bowSmokeNpcFullMinus7DefendedLeft, #bowSmokeNpcFullMinus6DefendedLeft, #bowSmokeNpcFullMinus5DefendedLeft, #bowSmokeNpcFullMinus4DefendedLeft, 
+#bowSmokeNpcFullMinus3DefendedLeft, #bowSmokeNpcFullMinus2DefendedLeft, #bowSmokeNpcFullMinus1DefendedLeft, #bowSmokeNpcFullDefendedLeft, #swordFireworkExplosionNpcDefendedLeft, 
+#swordSmokeNpcFullMinus9DefendedLeft, #swordSmokeNpcFullMinus8DefendedLeft, #swordSmokeNpcFullMinus7DefendedLeft, #swordSmokeNpcFullMinus6DefendedLeft, 
+#swordSmokeNpcFullMinus5DefendedLeft, #swordSmokeNpcFullMinus4DefendedLeft, #swordSmokeNpcFullMinus3DefendedLeft, #swordSmokeNpcFullMinus2DefendedLeft, 
+#swordSmokeNpcFullMinus1DefendedLeft, #swordSmokeNpcFullDefendedLeft, #axeBowFireworkExplosionNpcDefendedLeft, #axeBowSmokeNpcFullMinus9DefendedLeft, 
+#axeBowSmokeNpcFullMinus8DefendedLeft, #axeBowSmokeNpcFullMinus7DefendedLeft, #axeBowSmokeNpcFullMinus6DefendedLeft, #axeBowSmokeNpcFullMinus5DefendedLeft, 
+#axeBowSmokeNpcFullMinus4DefendedLeft, #axeBowSmokeNpcFullMinus3DefendedLeft, #axeBowSmokeNpcFullMinus2DefendedLeft, #axeBowSmokeNpcFullMinus1DefendedLeft, 
+#axeBowSmokeNpcFullDefendedLeft, #axeSwordFireworkExplosionNpcDefendedLeft, #axeSwordSmokeNpcFullMinus9DefendedLeft, #axeSwordSmokeNpcFullMinus8DefendedLeft, 
+#axeSwordSmokeNpcFullMinus7DefendedLeft, #axeSwordSmokeNpcFullMinus6DefendedLeft, #axeSwordSmokeNpcFullMinus5DefendedLeft, #axeSwordSmokeNpcFullMinus4DefendedLeft, 
+#axeSwordSmokeNpcFullMinus3DefendedLeft, #axeSwordSmokeNpcFullMinus2DefendedLeft, #axeSwordSmokeNpcFullMinus1DefendedLeft, #axeSwordSmokeNpcFullDefendedLeft, 
+#bowSwordFireworkExplosionNpcDefendedLeft, #bowSwordSmokeNpcFullMinus9DefendedLeft, #bowSwordSmokeNpcFullMinus8DefendedLeft, #bowSwordSmokeNpcFullMinus7DefendedLeft, 
+#bowSwordSmokeNpcFullMinus6DefendedLeft, #bowSwordSmokeNpcFullMinus5DefendedLeft, #bowSwordSmokeNpcFullMinus4DefendedLeft, #bowSwordSmokeNpcFullMinus3DefendedLeft, 
+#bowSwordSmokeNpcFullMinus2DefendedLeft, #bowSwordSmokeNpcFullMinus1DefendedLeft, #bowSwordSmokeNpcFullDefendedLeft, #axeBowSwordFireworkExplosionNpcDefendedLeft, 
+#axeBowSwordSmokeNpcFullMinus9DefendedLeft, #axeBowSwordSmokeNpcFullMinus8DefendedLeft, #axeBowSwordSmokeNpcFullMinus7DefendedLeft, #axeBowSwordSmokeNpcFullMinus6DefendedLeft, 
+#axeBowSwordSmokeNpcFullMinus5DefendedLeft, #axeBowSwordSmokeNpcFullMinus4DefendedLeft, #axeBowSwordSmokeNpcFullMinus3DefendedLeft, #axeBowSwordSmokeNpcFullMinus2DefendedLeft, 
+#axeBowSwordSmokeNpcFullMinus1DefendedLeft, #axeBowSwordSmokeNpcFullDefendedLeft, #fireworkAxeNpcDefendedLeft, #fireworkBowNpcDefendedLeft, #fireworkSwordNpcDefendedLeft, 
+#fireworkAxeShimmerNpcFullDefendedLeft, #fireworkBowShimmerNpcFullDefendedLeft, #fireworkSwordShimmerNpcFullDefendedLeft,
+
+/*greyWizNpcRightAttack*/
+
+#protrudingFireworkTop_0NpcRight, #protrudingFireworkTop_1NpcRight, #protrudingFireworkTop_2NpcRight, #protrudingFireworkTop_3NpcRight, 
+#protrudingFireworkTop_4NpcRight, #protrudingFireworkTop_5NpcRight, #protrudingFireworkTop_6NpcRight, #protrudingFireworkTop_7NpcRight, #protrudingFireworkMiddle_0NpcRight, 
+#protrudingFireworkMiddle_1NpcRight, #protrudingFireworkMiddle_2NpcRight, #protrudingFireworkMiddle_3NpcRight, #protrudingFireworkMiddle_4NpcRight, #protrudingFireworkMiddle_5NpcRight, 
+#protrudingFireworkMiddle_6NpcRight, #protrudingFireworkMiddle_7NpcRight, #protrudingFireworkBottom_0NpcRight, #protrudingFireworkBottom_1NpcRight, #protrudingFireworkBottom_2NpcRight, 
+#protrudingFireworkBottom_3NpcRight, #protrudingFireworkBottom_4NpcRight, #protrudingFireworkBottom_5NpcRight, #protrudingFireworkBottom_6NpcRight, #protrudingFireworkBottom_7NpcRight, 
+#topFirework_0NpcRight, #topFirework_1NpcRight, #topFirework_2NpcRight, #topFirework_3NpcRight, #topFirework_4NpcRight, #topFirework_5NpcRight, #topFirework_6NpcRight, 
+#middleFirework_0NpcRight, #middleFirework_1NpcRight, #middleFirework_2NpcRight, #topFirework_3Z_1NpcRight, #middleFirework_3NpcRight, #middleFirework_4NpcRight, 
+#middleFirework_5NpcRight,#bottomFirework_0NpcRight, #bottomFirework_1NpcRight, #middleFirework_2Z_2NpcRight, #bottomFirework_2NpcRight, #middleFirework_3Z_2NpcRight, 
+#topFirework_4Z_1NpcRight, #bottomFirework_3NpcRight, #middleFirework_4Z_2NpcRight, #topFirework_5Z_1NpcRight, #bottomFirework_4NpcRight, #middleFirework_5Z_4NpcRight, 
+#topFirework_6Z_1NpcRight, #middleFirework_5Z_2NpcRight, #topFirework_6Z_3NpcRight, #axeFireworkExplosionNpcRight, #axeSmokeNpcFullMinus10Right, #axeSmokeNpcFullMinus9Right, 
+#axeSmokeNpcFullMinus8Right, #axeSmokeNpcFullMinus7Right, #axeSmokeNpcFullMinus6Right, #axeSmokeNpcFullMinus5Right, #axeSmokeNpcFullMinus4Right, #axeSmokeNpcFullMinus3Right, 
+#axeSmokeNpcFullMinus2Right, #axeSmokeNpcFullMinus1Right, #axeSmokeNpcFullRight, #bowFireworkExplosionNpcRight, #bowSmokeNpcFullMinus10Right, #bowSmokeNpcFullMinus9Right, 
+#bowSmokeNpcFullMinus8Right, #bowSmokeNpcFullMinus7Right, #bowSmokeNpcFullMinus6Right, #bowSmokeNpcFullMinus5Right, #bowSmokeNpcFullMinus4Right, #bowSmokeNpcFullMinus3Right, 
+#bowSmokeNpcFullMinus2Right, #bowSmokeNpcFullMinus1Right, #bowSmokeNpcFullRight, #swordFireworkExplosionNpcRight, #swordSmokeNpcFullMinus10Right, #swordSmokeNpcFullMinus9Right, 
+#swordSmokeNpcFullMinus8Right, #swordSmokeNpcFullMinus7Right, #swordSmokeNpcFullMinus6Right, #swordSmokeNpcFullMinus5Right, #swordSmokeNpcFullMinus4Right, #swordSmokeNpcFullMinus3Right, 
+#swordSmokeNpcFullMinus2Right, #swordSmokeNpcFullMinus1Right, #swordSmokeNpcFullRight, #axeBowFireworkExplosionNpcRight, #axeBowSmokeNpcFullMinus10Right, #axeBowSmokeNpcFullMinus9Right, 
+#axeBowSmokeNpcFullMinus8Right, #axeBowSmokeNpcFullMinus7Right, #axeBowSmokeNpcFullMinus6Right, #axeBowSmokeNpcFullMinus5Right, #axeBowSmokeNpcFullMinus4Right, 
+#axeBowSmokeNpcFullMinus3Right, #axeBowSmokeNpcFullMinus2Right, #axeBowSmokeNpcFullMinus1Right, #axeBowSmokeNpcFullRight, #axeSwordFireworkExplosionNpcRight, 
+#axeSwordSmokeNpcFullMinus10Right, #axeSwordSmokeNpcFullMinus9Right, #axeSwordSmokeNpcFullMinus8Right, #axeSwordSmokeNpcFullMinus7Right, #axeSwordSmokeNpcFullMinus6Right, 
+#axeSwordSmokeNpcFullMinus5Right, #axeSwordSmokeNpcFullMinus4Right, #axeSwordSmokeNpcFullMinus3Right, #axeSwordSmokeNpcFullMinus2Right, #axeSwordSmokeNpcFullMinus1Right, 
+#axeSwordSmokeNpcFullRight, #bowSwordFireworkExplosionNpcRight, #bowSwordSmokeNpcFullMinus10Right, #bowSwordSmokeNpcFullMinus9Right, #bowSwordSmokeNpcFullMinus8Right, 
+#bowSwordSmokeNpcFullMinus7Right, #bowSwordSmokeNpcFullMinus6Right, #bowSwordSmokeNpcFullMinus5Right, #bowSwordSmokeNpcFullMinus4Right, #bowSwordSmokeNpcFullMinus3Right, 
+#bowSwordSmokeNpcFullMinus2Right, #bowSwordSmokeNpcFullMinus1Right, #bowSwordSmokeNpcFullRight, #axeBowSwordFireworkExplosionNpcRight, #axeBowSwordSmokeNpcFullMinus10Right, 
+#axeBowSwordSmokeNpcFullMinus9Right, #axeBowSwordSmokeNpcFullMinus8Right, #axeBowSwordSmokeNpcFullMinus7Right, #axeBowSwordSmokeNpcFullMinus6Right, #axeBowSwordSmokeNpcFullMinus5Right, 
+#axeBowSwordSmokeNpcFullMinus4Right, #axeBowSwordSmokeNpcFullMinus3Right, #axeBowSwordSmokeNpcFullMinus2Right, #axeBowSwordSmokeNpcFullMinus1Right, #axeBowSwordSmokeNpcFullRight, 
+#fireworkAxeNpcRight, #fireworkBowNpcRight, #fireworkSwordNpcRight, #fireworkAxeShimmerNpcFullRight, #fireworkBowShimmerNpcFullRight, #fireworkSwordShimmerNpcFullRight, 
+#bottomFirework_5NpcRight, #middleFirework_6NpcRight, #topFirework_7NpcRight, #bottomFirework_5Z_3NpcRight, #middleFirework_6Z_2NpcRight, #topFirework_7Z_1NpcRight, #axeFireworkExplosionNpcDefendedRight, 
+#axeSmokeNpcFullMinus9DefendedRight, #axeSmokeNpcFullMinus8DefendedRight, #axeSmokeNpcFullMinus7DefendedRight, #axeSmokeNpcFullMinus6DefendedRight, #axeSmokeNpcFullMinus5DefendedRight, 
+#axeSmokeNpcFullMinus4DefendedRight, #axeSmokeNpcFullMinus3DefendedRight, #axeSmokeNpcFullMinus2DefendedRight, #axeSmokeNpcFullMinus1DefendedRight, #axeSmokeNpcFullDefendedRight, 
+#bowFireworkExplosionNpcDefendedRight, #bowSmokeNpcFullMinus9DefendedRight, #bowSmokeNpcFullMinus8DefendedRight, #bowSmokeNpcFullMinus7DefendedRight, #bowSmokeNpcFullMinus6DefendedRight, 
+#bowSmokeNpcFullMinus5DefendedRight, #bowSmokeNpcFullMinus4DefendedRight, #bowSmokeNpcFullMinus3DefendedRight, #bowSmokeNpcFullMinus2DefendedRight, #bowSmokeNpcFullMinus1DefendedRight, 
+#bowSmokeNpcFullDefendedRight, #swordFireworkExplosionNpcDefendedRight, #swordSmokeNpcFullMinus9DefendedRight, #swordSmokeNpcFullMinus8DefendedRight, 
+#swordSmokeNpcFullMinus7DefendedRight, #swordSmokeNpcFullMinus6DefendedRight, #swordSmokeNpcFullMinus5DefendedRight, #swordSmokeNpcFullMinus4DefendedRight, 
+#swordSmokeNpcFullMinus3DefendedRight, #swordSmokeNpcFullMinus2DefendedRight, #swordSmokeNpcFullMinus1DefendedRight, #swordSmokeNpcFullDefendedRight, 
+#axeBowFireworkExplosionNpcDefendedRight, #axeBowSmokeNpcFullMinus9DefendedRight, #axeBowSmokeNpcFullMinus8DefendedRight, #axeBowSmokeNpcFullMinus7DefendedRight, 
+#axeBowSmokeNpcFullMinus6DefendedRight, #axeBowSmokeNpcFullMinus5DefendedRight, #axeBowSmokeNpcFullMinus4DefendedRight, #axeBowSmokeNpcFullMinus3DefendedRight, 
+#axeBowSmokeNpcFullMinus2DefendedRight, #axeBowSmokeNpcFullMinus1DefendedRight, #axeBowSmokeNpcFullDefendedRight, #axeSwordFireworkExplosionNpcDefendedRight, 
+#axeSwordSmokeNpcFullMinus9DefendedRight, #axeSwordSmokeNpcFullMinus8DefendedRight, #axeSwordSmokeNpcFullMinus7DefendedRight, #axeSwordSmokeNpcFullMinus6DefendedRight, 
+#axeSwordSmokeNpcFullMinus5DefendedRight, #axeSwordSmokeNpcFullMinus4DefendedRight, #axeSwordSmokeNpcFullMinus3DefendedRight, #axeSwordSmokeNpcFullMinus2DefendedRight, 
+#axeSwordSmokeNpcFullMinus1DefendedRight, #axeSwordSmokeNpcFullDefendedRight, #bowSwordFireworkExplosionNpcDefendedRight, #bowSwordSmokeNpcFullMinus9DefendedRight, 
+#bowSwordSmokeNpcFullMinus8DefendedRight, #bowSwordSmokeNpcFullMinus7DefendedRight, #bowSwordSmokeNpcFullMinus6DefendedRight, #bowSwordSmokeNpcFullMinus5DefendedRight, 
+#bowSwordSmokeNpcFullMinus4DefendedRight, #bowSwordSmokeNpcFullMinus3DefendedRight, #bowSwordSmokeNpcFullMinus2DefendedRight, #bowSwordSmokeNpcFullMinus1DefendedRight, 
+#bowSwordSmokeNpcFullDefendedRight, #axeBowSwordFireworkExplosionNpcDefendedRight, #axeBowSwordSmokeNpcFullMinus9DefendedRight, #axeBowSwordSmokeNpcFullMinus8DefendedRight, 
+#axeBowSwordSmokeNpcFullMinus7DefendedRight, #axeBowSwordSmokeNpcFullMinus6DefendedRight, #axeBowSwordSmokeNpcFullMinus5DefendedRight, #axeBowSwordSmokeNpcFullMinus4DefendedRight, 
+#axeBowSwordSmokeNpcFullMinus3DefendedRight, #axeBowSwordSmokeNpcFullMinus2DefendedRight, #axeBowSwordSmokeNpcFullMinus1DefendedRight, #axeBowSwordSmokeNpcFullDefendedRight, 
+#fireworkAxeNpcDefendedRight, #fireworkBowNpcDefendedRight, #fireworkSwordNpcDefendedRight, #fireworkAxeShimmerNpcFullDefendedRight, #fireworkBowShimmerNpcFullDefendedRight, 
+#fireworkSwordShimmerNpcFullDefendedRight,
+
+/*redWizPcModels*/
+
+#redWizPc, #redWizPcDefendLeft, #redWizPcDefendRight, #redWizPcStruckLeft, #redWizPcStruckRight,
+
+#redWizNpc, #redWizNpcDefendLeft, #redWizNpcDefendRight, #redWizNpcStruckLeft, #redWizNpcStruckRight {
+    position: absolute;    
+}
+
+#whiteBackground {
+  left: 685px;
+}
+
+/*pc blueWiz */
+
+/*archimedes placeHolder*/
+
+#blueWizArmPcAttackLeft {
+  left: 760px;
+  top: 737px;
+  z-index: 6000;
+}
+
+#blueWizArmPcAttackRight {
+  left: 1023px;
+  top: 732px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefaultLeft {
+  left: 880px;
+  top: 814px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefaultRight {
+  left: 1025px;
+  top: 795px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefendLeft{
+  left: 764px;
+  top: 583px;
+  z-index: 6000;
+}
+
+#blueWizArmPcDefendRight{
+  left: 1009px;
+  top: 577px;
+  z-index: 6000;
+}
+
+#blueWizArmPcClenchLeft {
+  left: 774px;
+  top: 734px;
+  z-index: 6000;
+}
+
+#blueWizArmPcClenchRight {
+  left: 1026px;
+  top: 733px;
+  z-index: 6000;
+}
+
+#blueWizPcWithoutArmsOrArchimedes {
+  left: 706px;
+  top: 487px;
+  z-index: 6000;
+}
+
+#magicMissile_0PcLeft {
+  left: 764px;
+  top: 621px;
+  z-index: 5990;
+}
+
+#magicMissile_0PcRight {
+  left: 1034px;
+  top: 621px;
+  z-index: 5990;
+}
+
+#magicMissile_1PcLeft {
+  left: 802px;
+  top: 448px;
+  z-index: 5980;
+}
+
+#magicMissile_1PcRight {
+  left: 1037px;
+  top: 447px;
+  z-index: 5980;
+}
+
+#magicMissile_2PcLeft {
+  left: 835px;
+  top: 289px;
+  z-index: 5970;
+}
+
+#magicMissile_2PcRight {
+  left: 1020px;
+  top: 290px;
+  z-index: 5970;
+}
+
+#magicMissile_3PcLeft {
+  left: 856px;
+  top: 167px;
+  z-index: 5960;
+}
+
+#magicMissile_3PcRight {
+  left: 1020px;
+  top: 166px;
+  z-index: 5960;
+}
+
+#magicMissileCondensation_0PcLeft {
+  left: 667px;
+  top: 675px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_0PcRight {
+  left: 985px;
+  top: 666px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_1PcLeft {
+  left: 687px;
+  top: 695px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_1PcRight {
+  left: 977px;
+  top: 685px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_2PcLeft {
+  left: 690px;
+  top: 715px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_2PcRight {
+  left: 990px;
+  top: 707px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_3PcLeft {
+  left: 735px;
+  top: 736px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_3PcRight {
+  left: 1036px;
+  top: 732px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_4PcLeft {
+  left: 775px;
+  top: 778px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_4PcRight {
+  left: 1072px;
+  top: 771px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_5PcLeft {
+  left: 783px;
+  top: 785px;
+  z-index: 5990;
+}
+
+#magicMissileCondensation_5PcRight {
+  left: 1084px;
+  top: 782px;
+  z-index: 5990;
+}
+
+#magicMissilePcDefendedLeft {
+  left: 815px;
+  top: 11px;
+  z-index: 5970;
+}
+
+#magicMissilePcDefendedRight {
+  left: 1042px;
+  top: 7px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcDefendedLeft {
+  left: 682px;
+  top: 137px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcDefendedRight {
+  left: 1071px;
+  top: 141px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcLeft {
+  left: 816px;
+  top: 116px;
+  z-index: 5970;
+}
+
+#magicMissileSplosionPcRight {
+  left: 974px;
+  top: 113px;
+  z-index: 5970;
+}
+
+#star_0PcLeft {
+  left: 714px;
+  top: 683px;
+  z-index: 5990;
+}
+
+#star_0PcRight {
+  left: 1100px;
+  top: 671px;
+  z-index: 5990;
+}
+
+#star_1PcLeft {
+  left: 724px;
+  top: 686px;
+  z-index: 5990;
+}
+
+#star_1PcRight {
+  left: 1028px;
+  top: 676px;
+  z-index: 5990;
+}
+
+#star_2PcLeft {
+  left: 677px;
+  top: 682px;
+  z-index: 5990;
+}
+
+#star_2PcRight {
+  left: 1024px;
+  top: 675px;
+  z-index: 5990;
+}
+
+#star_3PcLeft {
+  left: 678px;
+  top: 684px;
+  z-index: 5990;
+}
+
+#star_3PcRight {
+  left: 990px;
+  top: 676px;
+  z-index: 5990;
+}
+
+#star_4PcLeft {
+  left: 678px;
+  top: 683px;
+  z-index: 5990;
+}
+
+#star_4PcRight {
+  left: 990px;
+  top: 675px;
+  z-index: 5990;
+}
+
+/*npc blueWiz*/
+
+/*archimedes placeHolder*/
+
+#blueWizArmNpcAttackLeft {
+  left: 843px;
+  top: 168px;
+}
+
+#blueWizArmNpcAttackRight {
+  left: 988px;
+  top: 153px;
+}
+
+#blueWizArmNpcDefaultLeft {
+  left: 872px;
+  top: 168px;
+}
+
+#blueWizArmNpcDefaultRight {
+  left: 989px;
+  top: 154px;
+}
+
+#blueWizArmNpcDefendLeft{
+  left: 841px;
+  top: 129px;
+}
+
+#blueWizArmNpcDefendRight{
+  left: 977px;
+  top: 112px;
+}
+
+#blueWizArmNpcClenchLeft {
+  left: 846px;
+  top: 167px;
+}
+
+#blueWizArmNpcClenchRight {
+  left: 988px;
+  top: 153px;
+}
+
+#blueWizNpcWithoutArmsOrArchimedes {
+  left: 849px;
+  top: -2px;
+}
+
+#magicMissile_0NpcLeft {
+  left: 865px;
+  top: 220px;
+}
+
+#magicMissile_0NpcRight {
+  left: 1019px;
+  top: 217px;
+}
+
+#magicMissile_1NpcLeft {
+  left: 841px;
+  top: 265px;
+}
+
+#magicMissile_1NpcRight {
+  left: 1013px;
+  top: 263px;
+}
+
+#magicMissile_2NpcLeft {
+  left: 820px;
+  top: 357px;
+}
+
+#magicMissile_2NpcRight {
+  left: 1025px;
+  top: 352px;
+}
+
+#magicMissile_3NpcLeft {
+  left: 803px;
+  top: 473px;
+}
+
+#magicMissile_3NpcRight {
+  left: 1034px;
+  top: 471px;
+}
+
+#magicMissileCondensation_0NpcLeft {
+  left: 799px;
+  top: 152px;
+}
+
+#magicMissileCondensation_0NpcRight {
+  left: 976px;
+  top: 146px;
+}
+
+#magicMissileCondensation_1NpcLeft {
+  left: 815px;
+  top: 162px;
+}
+
+#magicMissileCondensation_1NpcRight {
+  left: 978px;
+  top: 160px;
+}
+
+#magicMissileCondensation_2NpcLeft {
+  left: 830px;
+  top: 175px;
+}
+
+#magicMissileCondensation_2NpcRight {
+  left: 993px;
+  top: 182px;
+}
+
+#magicMissileCondensation_3NpcLeft {
+  left: 857px;
+  top: 189px;
+}
+
+#magicMissileCondensation_3NpcRight {
+  left: 1012px;
+  top: 196px;
+}
+
+#magicMissileCondensation_4NpcLeft {
+  left: 869px;
+  top: 203px;
+}
+
+#magicMissileCondensation_4NpcRight {
+  left: 1023px;
+  top: 212px;
+}
+
+#magicMissileCondensation_5NpcLeft {
+  left: 874px;
+  top: 213px;
+}
+
+#magicMissileCondensation_5NpcRight {
+  left: 1028px;
+  top: 215px;
+}
+
+#magicMissileNpcDefendedLeft {
+  left: 750px;
+  top: 414px;
+}
+
+#magicMissileNpcDefendedRight {
+  left: 1084px;
+  top: 415px;
+}
+
+#magicMissileSplosionNpcDefendedLeft {
+  left: 684px;
+  top: 431px;
+}
+
+#magicMissileSplosionNpcDefendedRight {
+  left: 1046px;
+  top: 434px;
+}
+
+#magicMissileSplosionNpcLeft {
+  left: 680px;
+  top: 611px;
+}
+
+#magicMissileSplosionNpcRight {
+  left: 1002px;
+  top: 611px;
+}
+
+#star_0NpcLeft {
+  left: 816px;
+  top: 148px;
+}
+
+#star_0NpcRight {
+  left: 1042px;
+  top: 149px;
+}
+
+#star_1NpcLeft {
+  left: 818px;
+  top: 135px;
+}
+
+#star_1NpcRight {
+  left: 998px;
+  top: 149px;
+}
+
+#star_2NpcLeft {
+  left: 796px;
+  top: 148px;
+}
+
+#star_2NpcRight {
+  left: 996px;
+  top: 147px;
+}
+
+#star_3NpcLeft {
+  left: 796px;
+  top: 149px;
+}
+
+#star_3NpcRight {
+  left: 976px;
+  top: 150px;
+}
+
+#star_4NpcLeft {
+  left: 797px;
+  top: 149px;
+}
+
+#star_4NpcRight {
+  left: 976px;
+  top: 149px;
+}
+
+/*pc greyWiz*/
+
+#greyWizArmPcDefaultLeft {
+  left: 780px;
+  top: 482px;
+  z-index: 1000;
+}
+
+#greyWizArmPcDefaultRight {
+  left: 1055px;
+  top: 465px;
+  z-index: 1000;
+}
+
+#greyWizArmPcDefendLeft {
+  left: 812px;
+  top: 469px;
+  z-index: 1000;
+}
+
+#greyWizArmPcDefendRight {
+  left: 1049px;
+  top: 450px;
+  z-index: 1000;
+}
+
+#greyWizPcWithoutArms {
+  left: 785px;
+  top: 458px;
+  z-index: 1000;
+}
+
+#greyWizPcStruckLeft {
+  left: 767px;
+  top: 487px;
+  z-index: 1000;
+}
+
+#greyWizPcStruckRight {
+  left: 762px;
+  top: 447px;
+  z-index: 1000;
+}
+
+#greyWizPcWithoutHands {
+  left: 786px;
+  top: 474px;
+  z-index: 1000;
+}
+
+#greyWizHandPcDefaultLeft {
+  left: 794px;
+  top: 470px;
+  z-index: 950;
+}
+
+#greyWizHandPc15DegreesLeft {
+  left: 794px;
+  top: 489px;
+  z-index: 950;
+}
+
+#greyWizHandPc30DegreesLeft {
+  left: 782px;
+  top: 504px;
+  z-index: 950;
+}
+
+#greyWizHandPc45DegreesLeft {
+  left: 789px;
+  top: 561px;
+  z-index: 950;
+}
+
+#greyWizHandPcDefaultRight {
+  left: 1063px;
+  top: 462px;
+  z-index: 950;
+}
+
+#greyWizHandPc345DegreesRight {
+  left: 985px;
+  top: 464px;
+  z-index: 950;
+}
+
+#greyWizHandPc330DegreesRight {
+  left: 904px;
+  top: 490px;
+  z-index: 950;
+}
+
+#greyWizHandPc315DegreesRight {
+  left: 819px;
+  top: 522px;
+}
+
+#protrudingFireworkTop_0PcLeft {
+  left: 751px;
+  top: 753px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_1PcLeft {
+  left: 734px;
+  top: 719px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_2PcLeft {
+  left: 699px;
+  top: 710px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_3PcLeft {
+  left: 692px;
+  top: 706px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_4PcLeft {
+  left: 720px;
+  top: 726px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_5PcLeft {
+  left: 742px;
+  top: 755px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_6PcLeft {
+  left: 771px;
+  top: 775px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_0PcRight {
+  left: 1127px;
+  top: 753px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_1PcRight {
+  left: 1128px;
+  top: 720px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_2PcRight {
+  left: 1098px;
+  top: 709px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_3PcRight {
+  left: 1099px;
+  top: 703px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_4PcRight {
+  left: 1097px;
+  top: 723px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_5PcRight {
+  left: 1100px;
+  top: 757px;
+  z-index: 975;
+}
+
+#protrudingFireworkTop_6PcRight {
+  left: 1100px;
+  top: 782px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_0PcLeft {
+  left: 757px;
+  top: 806px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_1PcLeft {
+  left: 719px;
+  top: 799px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_2PcLeft {
+  left: 692px;
+  top: 812px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_3PcLeft {
+  left: 682px;
+  top: 812px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_4PcLeft {
+  left: 716px;
+  top: 815px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_5PcLeft {
+  left: 749px;
+  top: 832px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_6PcLeft {
+  left: 778px;
+  top: 849px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_0PcRight {
+  left: 1119px;
+  top: 810px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_1PcRight {
+  left: 1116px;
+  top: 798px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_2PcRight {
+  left: 1104px;
+  top: 814px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_3PcRight {
+  left: 1103px;
+  top: 813px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_4PcRight {
+  left: 1101px;
+  top: 818px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_5PcRight {
+  left: 1101px;
+  top: 832px;
+  z-index: 975;
+}
+
+#protrudingFireworkMiddle_6PcRight {
+  left: 1102px;
+  top: 853px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_0PcLeft {
+  left: 763px;
+  top: 883px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_1PcLeft {
+  left: 735px;
+  top: 883px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_2PcLeft {
+  left: 704px;
+  top: 885px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_3PcLeft {
+  left: 696px;
+  top: 884px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_4PcLeft {
+  left: 727px;
+  top: 884px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_5PcLeft {
+  left: 751px;
+  top: 884px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_6PcLeft {
+  left: 781px;
+  top: 883px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_0PcRight {
+  left: 1120px;
+  top: 883px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_1PcRight {
+  left: 1116px;
+  top: 884px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_2PcRight {
+  left: 1102px;
+  top: 880px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_3PcRight {
+  left: 1102px;
+  top: 880px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_4PcRight {
+  left: 1101px;
+  top: 880px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_5PcRight {
+  left: 1101px;
+  top: 881px;
+  z-index: 975;
+}
+
+#protrudingFireworkBottom_6PcRight {
+  left: 1101px;
+  top: 880px;
+  z-index: 975;
+}
+
+#topFirework_0PcLeft {
+  left: 678px;
+  top: 588px;
+  z-index: 925;
+}
+
+#topFirework_1PcLeft {
+  left: 678px;
+  top: 394px;
+  z-index: 925;
+}
+
+#topFirework_2PcLeft {
+  left: 682px;
+  top: 355px;
+  z-index: 925;
+}
+
+#topFirework_3PcLeft {
+  left: 683px;
+  top: 208px;
+  z-index: 925;
+}
+
+#topFirework_4PcLeft {
+  left: 715px;
+  top: 197px;
+  z-index: 925;
+}
+
+#topFirework_5PcLeft {
+  left: 745px;
+  top: 194px;
+  z-index: 925;
+}
+
+#topFirework_6PcLeft {
+  left: 740px;
+  top: 210px;
+  z-index: 925;
+}
+
+#topFirework_0PcRight {
+  left: 1054px;
+  top: 578px;
+  z-index: 925;
+}
+
+#topFirework_1PcRight {
+  left: 1060px;
+  top: 393px;
+  z-index: 925;
+}
+
+#topFirework_2PcRight {
+  left: 849px;
+  top: 355px;
+  z-index: 925;
+}
+
+#topFirework_3PcRight {
+  left: 748px;
+  top: 226px;
+  z-index: 925;
+}
+
+#topFirework_4PcRight {
+  left: 745px;
+  top: 212px;
+  z-index: 925;
+}
+
+#topFirework_5PcRight {
+  left: 741px;
+  top: 207px;
+  z-index: 925;
+}
+
+#topFirework_6PcRight {
+  left: 748px;
+  top: 206px;
+  z-index: 925;
+}
+
+#middleFirework_0PcLeft {
+  left: 696px;
+  top: 590px;
+  z-index: 925;
+}
+
+#middleFirework_1PcLeft {
+  left: 704px;
+  top: 397px;
+  z-index: 925;
+}
+
+#middleFirework_2PcLeft {
+  left: 700px;
+  top: 335px;
+  z-index: 925;
+}
+
+#middleFirework_3PcLeft {
+  left: 705px;
+  top: 206px;
+  z-index: 925;
+}
+
+#middleFirework_4PcLeft {
+  left: 748px;
+  top: 206px;
+  z-index: 925;
+}
+
+#middleFirework_5PcLeft {
+  left: 750px;
+  top: 214px;
+  z-index: 925;
+}
+
+#middleFirework_0PcRight {
+  left: 1042px;
+  top: 598px;
+  z-index: 925;
+}
+
+#middleFirework_1PcRight {
+  left: 1051px;
+  top: 404px;
+  z-index: 925;
+}
+
+#middleFirework_2PcRight {
+  left: 818px;
+  top: 341px;
+  z-index: 925;
+}
+
+#middleFirework_3PcRight {
+  left: 753px;
+  top: 214px;
+  z-index: 925;
+}
+
+#middleFirework_4PcRight {
+  left: 752px;
+  top: 210px;
+  z-index: 925;
+}
+
+#middleFirework_5PcRight {
+  left: 753px;
+  top: 206px;
+  z-index: 925;
+}
+
+#bottomFirework_0PcLeft {
+  left: 743px;
+  top: 652px;
+  z-index: 925;
+}
+
+#bottomFirework_1PcLeft {
+  left: 738px;
+  top: 399px;
+  z-index: 925;
+}
+
+#bottomFirework_2PcLeft {
+  left: 738px;
+  top: 318px;
+  z-index: 925;
+}
+
+#bottomFirework_3PcLeft {
+  left: 757px;
+  top: 218px;
+  z-index: 925;
+}
+
+#bottomFirework_4PcLeft {
+  left: 761px;
+  top: 224px;
+  z-index: 925;
+}
+
+#bottomFirework_0PcRight {
+  left: 1034px;
+  top: 664px;
+  z-index: 925;
+}
+
+#bottomFirework_1PcRight {
+  left: 1045px;
+  top: 423px;
+  z-index: 925;
+}
+
+#bottomFirework_2PcRight {
+  left: 774px;
+  top: 316px;
+  z-index: 925;
+}
+
+#bottomFirework_3PcRight {
+  left: 762px;
+  top: 210px;
+  z-index: 925;
+}
+
+#bottomFirework_4PcRight {
+  left: 765px;
+  top: 220px;
+  z-index: 925;
+}
+
+#middleFirework_3Z_1PcLeft {
+  left: 976px;
+  top: 211px;
+z-index: 926;   
+}
+
+#middleFirework_3Z_1PcRight {
+  left: 765px;
+  top: 220px;
+z-index: 926;   
+}
+
+#middleFirework_4Z_2PcLeft {
+  left: 753px;
+  top: 214px;
+z-index: 926;
+}
+
+#middleFirework_4Z_2PcRight {
+  left: 758px;
+  top: 219px;
+z-index: 926;
+}
+
+#bottomFirework_3Z_1PcLeft {
+  left: 923px;
+  top: 226px;
+z-index: 926;
+}
+
+#bottomFirework_3Z_1PcRight {
+  left: 768px;
+  top: 215px;
+z-index: 926;
+}
+
+#middleFirework_5Z_1PcLeft {
+  left: 753px;
+  top: 224px;
+z-index: 926;
+}
+
+#middleFirework_5Z_1PcRight {
+  left: 759px;
+  top: 218px;
+z-index: 926;
+}
+
+#bottomFirework_4Z_2PcLeft {
+  left: 770px;
+  top: 233px;
+z-index: 926;
+}
+
+#bottomFirework_4Z_2PcRight {
+  left: 770px;
+  top: 229px;
+z-index: 926;
+}
+
+#axeFireworkExplosionPcLeft {
+  left: 671px;
+  top: 23px;
+  z-index: 925;
+}
+
+#axeFireworkExplosionPcRight {
+  left: 750px;
+  top: 30px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus10Left {
+  left: 848px;
+  top: 201px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus9Left {
+  left: 845px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus8Left {
+  left: 828px;
+  top: 181px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus7Left {
+  left: 814px;
+  top: 173px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus6Left {
+  left: 798px;
+  top: 163px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus5Left {
+  left: 777px;
+  top: 161px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus4Left {
+  left: 763px;
+  top: 153px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus3Left {
+  left: 742px;
+  top: 141px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus2Left {
+  left: 726px;
+  top: 138px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus1Left {
+  left: 705px;
+  top: 132px;
+  z-index: 925;
+}
+
+#axeSmokePcFullLeft {
+  left: 675px;
+  top: 124px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus10Right {
+  left: 1047px;
+  top: 200px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus9Right {
+  left: 1049px;
+  top: 183px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus8Right {
+  left: 1059px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus7Right {
+  left: 1058px;
+  top: 174px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus6Right {
+  left: 1065px;
+  top: 166px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus5Right {
+  left: 1065px;
+  top: 160px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus4Right {
+  left: 1074px;
+  top: 155px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus3Right {
+  left: 1070px;
+  top: 142px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus2Right {
+  left: 1076px;
+  top: 135px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus1Right {
+  left: 1084px;
+  top: 131px;
+  z-index: 925;
+}
+
+#axeSmokePcFullRight {
+  left: 1086px;
+  top: 122px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionPcLeft {
+  left: 670px;
+  top: 38px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionPcRight {
+  left: 746px;
+  top: 48px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus10Left {
+  left: 839px;
+  top: 207px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus9Left {
+  left: 843px;
+  top: 193px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus8Left {
+  left: 836px;
+  top: 195px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus7Left {
+  left: 824px;
+  top: 188px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus6Left {
+  left: 813px;
+  top: 162px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus5Left {
+  left: 791px;
+  top: 141px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus4Left {
+  left: 795px;
+  top: 133px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus3Left {
+  left: 780px;
+  top: 102px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus2Left {
+  left: 766px;
+  top: 93px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus1Left {
+  left: 751px;
+  top: 72px;
+  z-index: 925;
+}
+
+#bowSmokePcFullLeft {
+  left: 735px;
+  top: 48px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus10Right {
+  left: 1056px;
+  top: 208px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus9Right {
+  left: 1052px;
+  top: 193px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus8Right {
+  left: 1059px;
+  top: 194px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus7Right {
+  left: 1059px;
+  top: 186px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus6Right {
+  left: 1060px;
+  top: 164px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus5Right {
+  left: 1055px;
+  top: 141px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus4Right {
+  left: 1056px;
+  top: 134px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus3Right {
+  left: 1062px;
+  top: 103px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus2Right {
+  left: 1064px;
+  top: 90px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus1Right {
+  left: 1068px;
+  top: 71px;
+  z-index: 925;
+}
+
+#bowSmokePcFullRight {
+  left: 1074px;
+  top: 47px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionPcLeft {
+  left: 677px;
+  top: 99px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionPcRight {
+  left: 770px;
+  top: 102px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus10Left {
+  left: 850px;
+  top: 193px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus9Left {
+  left: 853px;
+  top: 190px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus8Left {
+  left: 839px;
+  top: 169px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus7Left {
+  left: 832px;
+  top: 146px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus6Left {
+  left: 826px;
+  top: 125px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus5Left {
+  left: 811px;
+  top: 113px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus4Left {
+  left: 817px;
+  top: 97px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus3Left {
+  left: 813px;
+  top: 79px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus2Left {
+  left: 800px;
+  top: 53px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus1Left {
+  left: 796px;
+  top: 17px;
+  z-index: 925;
+}
+
+#swordSmokePcFullLeft {
+  left: 787px;
+  top: -5px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus10Right {
+  left: 1046px;
+  top: 194px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus9Right {
+  left: 1046px;
+  top: 190px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus8Right {
+  left: 1050px;
+  top: 169px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus7Right {
+  left: 1049px;
+  top: 147px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus6Right {
+  left: 1050px;
+  top: 128px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus5Right {
+  left: 1046px;
+  top: 109px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus4Right {
+  left: 1042px;
+  top: 98px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus3Right {
+  left: 1040px;
+  top: 83px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus2Right {
+  left: 1041px;
+  top: 50px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus1Right {
+  left: 1038px;
+  top: 14px;
+  z-index: 925;
+}
+
+#swordSmokePcFullRight {
+  left: 1041px;
+  top: -5px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionPcLeft {
+  left: 674px;
+  top: 33px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionPcRight {
+  left: 736px;
+  top: 38px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus10Left {
+  left: 842px;
+  top: 199px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus9Left {
+  left: 843px;
+  top: 183px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus8Left {
+  left: 829px;
+  top: 177px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus7Left {
+  left: 814px;
+  top: 174px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus6Left {
+  left: 798px;
+  top: 163px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus5Left {
+  left: 777px;
+  top: 143px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus4Left {
+  left: 762px;
+  top: 134px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus3Left {
+  left: 742px;
+  top: 112px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus2Left {
+  left: 726px;
+  top: 95px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus1Left {
+  left: 706px;
+  top: 72px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullLeft {
+  left: 674px;
+  top: 53px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus10Right {
+  left: 1049px;
+  top: 202px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus9Right {
+  left: 1050px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus8Right {
+  left: 1053px;
+  top: 177px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus7Right {
+  left: 1058px;
+  top: 174px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus6Right {
+  left: 1062px;
+  top: 165px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus5Right {
+  left: 1057px;
+  top: 142px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus4Right {
+  left: 1065px;
+  top: 135px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus3Right {
+  left: 1065px;
+  top: 113px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus2Right {
+  left: 1063px;
+  top: 91px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus1Right {
+  left: 1070px;
+  top: 70px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullRight {
+  left: 1076px;
+  top: 51px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionPcLeft {
+  left: 674px;
+  top: 42px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionPcRight {
+  left: 762px;
+  top: 47px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus10Left {
+  left: 849px;
+  top: 193px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus9Left {
+  left: 846px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus8Left {
+  left: 829px;
+  top: 169px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus7Left {
+  left: 815px;
+  top: 146px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus6Left {
+  left: 798px;
+  top: 125px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus5Left {
+  left: 776px;
+  top: 113px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus4Left {
+  left: 763px;
+  top: 98px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus3Left {
+  left: 742px;
+  top: 81px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus2Left {
+  left: 725px;
+  top: 52px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus1Left {
+  left: 705px;
+  top: 16px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullLeft {
+  left: 673px;
+  top: -7px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus10Right {
+  left: 1045px;
+  top: 194px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus9Right {
+  left: 1047px;
+  top: 181px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus8Right {
+  left: 1050px;
+  top: 169px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus7Right {
+  left: 1048px;
+  top: 148px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus6Right {
+  left: 1053px;
+  top: 127px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus5Right {
+  left: 1049px;
+  top: 113px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus4Right {
+  left: 1049px;
+  top: 98px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus3Right {
+  left: 1046px;
+  top: 83px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus2Right {
+  left: 1044px;
+  top: 49px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus1Right {
+  left: 1041px;
+  top: 15px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullRight {
+  left: 1044px;
+  top: -6px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionPcLeft {
+  left: 683px;
+  top: 44px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionPcRight {
+  left: 743px;
+  top: 50px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus10Left {
+  left: 839px;
+  top: 191px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus9Left {
+  left: 843px;
+  top: 182px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus8Left {
+  left: 828px;
+  top: 169px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus7Left {
+  left: 814px;
+  top: 146px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus6Left {
+  left: 797px;
+  top: 125px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus5Left {
+  left: 798px;
+  top: 113px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus4Left {
+  left: 795px;
+  top: 97px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus3Left {
+  left: 782px;
+  top: 82px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus2Left {
+  left: 765px;
+  top: 52px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus1Left {
+  left: 748px;
+  top: 18px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullLeft {
+  left: 733px;
+  top: -5px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus10Right {
+  left: 1044px;
+  top: 192px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus9Right {
+  left: 1045px;
+  top: 182px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus8Right {
+  left: 1050px;
+  top: 169px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus7Right {
+  left: 1048px;
+  top: 147px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus6Right {
+  left: 1050px;
+  top: 128px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus5Right {
+  left: 1045px;
+  top: 114px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus4Right {
+  left: 1045px;
+  top: 98px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus3Right {
+  left: 1042px;
+  top: 85px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus2Right {
+  left: 1042px;
+  top: 49px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus1Right {
+  left: 1038px;
+  top: 17px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullRight {
+  left: 1041px;
+  top: -6px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionPcLeft {
+  left: 672px;
+  top: 37px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionPcRight {
+  left: 748px;
+  top: 42px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus10Left {
+  left: 840px;
+  top: 191px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus9Left {
+  left: 843px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus8Left {
+  left: 828px;
+  top: 169px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus7Left {
+  left: 814px;
+  top: 146px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus6Left {
+  left: 797px;
+  top: 125px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus5Left {
+  left: 776px;
+  top: 113px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus4Left {
+  left: 762px;
+  top: 97px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus3Left {
+  left: 741px;
+  top: 81px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus2Left {
+  left: 725px;
+  top: 52px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus1Left {
+  left: 705px;
+  top: 16px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullLeft {
+  left: 674px;
+  top: -5px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus10Right {
+  left: 1044px;
+  top: 192px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus9Right {
+  left: 1047px;
+  top: 182px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus8Right {
+  left: 1050px;
+  top: 169px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus7Right {
+  left: 1049px;
+  top: 147px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus6Right {
+  left: 1050px;
+  top: 127px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus5Right {
+  left: 1046px;
+  top: 113px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus4Right {
+  left: 1045px;
+  top: 98px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus3Right {
+  left: 1043px;
+  top: 83px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus2Right {
+  left: 1041px;
+  top: 49px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus1Right {
+  left: 1038px;
+  top: 15px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullRight {
+  left: 1041px;
+  top: -6px;
+  z-index: 925;
+}
+
+#fireworkAxePcLeft {
+  left: 698px;
+  top: 141px;  
+}
+
+#fireworkAxePcRight {
+  left: 1099px;
+  top: 140px;  
+}
+
+#fireworkBowPcLeft {
+  left: 756px;
+  top: 76px;
+}
+
+#fireworkBowPcRight {
+  left: 1087px;
+  top: 77px;
+}
+
+#fireworkSwordPcLeft {
+  left: 801px;
+  top: 13px;
+}
+
+#fireworkSwordPcRight {
+  left: 1053px;
+  top: 12px;
+}
+
+#fireworkAxeShimmerPcFullLeft {
+  left: 688px;
+  top: 137px;
+}
+
+#fireworkAxeShimmerPcFullRight {
+  left: 1093px;
+  top: 135px;
+}
+
+#fireworkBowShimmerPcFullLeft {
+  left: 748px;
+  top: 68px;
+}
+
+#fireworkBowShimmerPcFullRight {
+  left: 1082px;
+  top: 68px;
+}
+
+#fireworkSwordShimmerPcFullLeft {
+  left: 792px;
+  top: 7px;
+}
+
+#fireworkSwordShimmerPcFullRight {
+  left: 1048px;
+  top: 6px;
+}
+
+#bottomFirework_5PcLeft {
+    left: 762px;
+    top: 196px;
+    z-index: 925;
+}
+
+#bottomFirework_5PcRight {
+    left: 757px;
+    top: 190px;
+    z-index: 925;
+}
+
+#middleFirework_6PcLeft {
+    left: 746px;
+    top: 186px;
+    z-index: 925;
+}
+
+#middleFirework_6PcRight {
+    left: 752px;
+    top: 180px;
+    z-index: 925;
+}
+
+#topFirework_7PcLeft {
+    left: 741px;
+    top: 178px;
+    z-index: 925;
+}
+
+#topFirework_7PcRight {
+    left: 742px;
+    top: 172px;
+    z-index: 925;
+}
+
+#bottomFirework_5Z_6PcLeft {
+    left: 765px;
+    top: 235px;
+    z-index: 926;
+}
+
+#bottomFirework_5Z_6PcRight {
+    left: 773px;
+    top: 230px;
+    z-index: 926;
+}
+
+#middleFirework_6Z_5PcLeft {
+    left: 755px;
+    top: 221px;
+    z-index: 927;
+}
+
+#middleFirework_6Z_5PcRight {
+    left: 758px;
+    top: 217px;
+    z-index: 927;
+}
+
+#topFirework_7Z_4PcLeft {
+    left: 825px;
+    top: 183px;
+    z-index: 928;
+}
+
+#topFirework_7Z_4PcRight {
+    left: 952px;
+    top: 177px;
+    z-index: 928;
+}
+
+#middleFirework_6Z_3PcLeft {
+    left: 835px;
+    top: 188px;
+    z-index: 929;
+}
+
+#middleFirework_6Z_3PcRight {
+    left: 981px;
+    top: 182px;
+    z-index: 929;
+}
+
+#bottomFirework_5Z_2PcLeft {
+    left: 842px;
+    top: 199px;
+    z-index: 930;
+}
+
+#bottomFirework_5Z_2PcRight {
+    left: 998px;
+    top: 192px;
+    z-index: 930;
+}
+
+#middleFirework_6Z_1PcLeft {
+    left: 843px;
+    top: 269px;
+    z-index: 931;
+}
+
+#middleFirework_6Z_1PcRight {
+    left: 1049px;
+    top: 263px;
+    z-index: 931;
+}
+
+#topFirework_7Z_0PcLeft {
+    left: 835px;
+    top: 267px;
+    z-index: 932;
+}
+
+#topFirework_7Z_0PcRight {
+    left: 1057px;
+    top: 262px;
+    z-index: 932;
+}
+
+#axeFireworkExplosionPcDefendedLeft {
+  left: 770px;
+  top: 197px;
+  z-index: 925;
+}
+
+#axeFireworkExplosionPcDefendedRight {
+  left: 792px;
+  top: 198px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus9DefendedLeft {
+  left: 864px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus8DefendedLeft {
+  left: 867px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus7DefendedLeft {
+  left: 866px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus6DefendedLeft {
+  left: 865px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus5DefendedLeft {
+  left: 864px;
+  top: 289px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus4DefendedLeft {
+  left: 866px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus3DefendedLeft {
+  left: 864px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus2DefendedLeft {
+  left: 864px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus1DefendedLeft {
+  left: 863px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeSmokePcFullDefendedLeft {
+  left: 858px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus9DefendedRight {
+  left: 1011px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus8DefendedRight {
+  left: 993px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus7DefendedRight {
+  left: 983px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus6DefendedRight {
+  left: 969px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus5DefendedRight {
+  left: 957px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus4DefendedRight {
+  left: 943px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus3DefendedRight {
+  left: 929px;
+  top: 278px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus2DefendedRight {
+  left: 913px;
+  top: 279px;
+  z-index: 925;
+}
+
+#axeSmokePcFullMinus1DefendedRight {
+  left: 899px;
+  top: 279px;
+  z-index: 925;
+}  
+
+#axeSmokePcFullDefendedRight {
+  left: 883px;
+  top: 280px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionPcDefendedLeft {
+  left: 742px;
+  top: 194px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionPcDefendedRight {
+  left: 756px;
+  top: 196px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus9DefendedLeft {
+  left: 850px;
+  top: 291px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus8DefendedLeft {
+  left: 851px;
+  top: 290px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus7DefendedLeft {
+  left: 852px;
+  top: 292px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus6DefendedLeft {
+  left: 852px;
+  top: 292px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus5DefendedLeft {
+  left: 852px;
+  top: 293px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus4DefendedLeft {
+  left: 850px;
+  top: 289px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus3DefendedLeft {
+  left: 848px;
+  top: 287px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus2DefendedLeft {
+  left: 850px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus1DefendedLeft {
+  left: 847px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSmokePcFullDefendedLeft {
+  left: 847px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus9DefendedRight {
+  left: 1029px;
+  top: 290px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus8DefendedRight {
+  left: 1019px;
+  top: 288px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus7DefendedRight {
+  left: 1014px;
+  top: 289px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus6DefendedRight {
+  left: 1001px;
+  top: 288px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus5DefendedRight {
+  left: 990px;
+  top: 289px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus4DefendedRight {
+  left: 972px;
+  top: 284px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus3DefendedRight {
+  left: 960px;
+  top: 283px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus2DefendedRight {
+  left: 953px;
+  top: 282px;
+  z-index: 925;
+}
+
+#bowSmokePcFullMinus1DefendedRight {
+  left: 940px;
+  top: 282px;
+  z-index: 925;
+}  
+
+#bowSmokePcFullDefendedRight {
+  left: 920px;
+  top: 283px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionPcDefendedLeft {
+  left: 785px;
+  top: 199px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionPcDefendedRight {
+  left: 773px;
+  top: 199px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus9DefendedLeft {
+  left: 834px;
+  top: 287px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus8DefendedLeft {
+  left: 833px;
+  top: 287px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus7DefendedLeft {
+  left: 837px;
+  top: 292px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus6DefendedLeft {
+  left: 836px;
+  top: 290px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus5DefendedLeft {
+  left: 837px;
+  top: 288px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus4DefendedLeft {
+  left: 832px;
+  top: 285px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus3DefendedLeft {
+  left: 833px;
+  top: 285px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus2DefendedLeft {
+  left: 834px;
+  top: 284px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus1DefendedLeft {
+  left: 831px;
+  top: 285px;
+  z-index: 925;
+}
+
+#swordSmokePcFullDefendedLeft {
+  left: 832px;
+  top: 282px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus9DefendedRight {
+  left: 1040px;
+  top: 286px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus8DefendedRight {
+  left: 1036px;
+  top: 285px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus7DefendedRight {
+  left: 1035px;
+  top: 288px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus6DefendedRight {
+  left: 1026px;
+  top: 285px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus5DefendedRight {
+  left: 1021px;
+  top: 284px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus4DefendedRight {
+  left: 1014px;
+  top: 280px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus3DefendedRight {
+  left: 1011px;
+  top: 281px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus2DefendedRight {
+  left: 1003px;
+  top: 281px;
+  z-index: 925;
+}
+
+#swordSmokePcFullMinus1DefendedRight {
+  left: 996px;
+  top: 281px;
+  z-index: 925;
+}  
+
+#swordSmokePcFullDefendedRight {
+  left: 995px;
+  top: 280px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionPcDefendedLeft {
+  left: 744px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionPcDefendedRight {
+  left: 755px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus9DefendedLeft {
+  left: 850px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus8DefendedLeft {
+  left: 850px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus7DefendedLeft {
+  left: 851px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus6DefendedLeft {
+  left: 852px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus5DefendedLeft {
+  left: 851px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus4DefendedLeft {
+  left: 849px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus3DefendedLeft {
+  left: 847px;
+  top: 281px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus2DefendedLeft {
+  left: 849px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus1DefendedLeft {
+  left: 846px;
+  top: 280px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullDefendedLeft {
+  left: 845px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus9DefendedRight {
+  left: 1009px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus8DefendedRight {
+  left: 992px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus7DefendedRight {
+  left: 981px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus6DefendedRight {
+  left: 967px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus5DefendedRight {
+  left: 955px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus4DefendedRight {
+  left: 940px;
+  top: 281px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus3DefendedRight {
+  left: 926px;
+  top: 278px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus2DefendedRight {
+  left: 910px;
+  top: 279px;
+  z-index: 925;
+}
+
+#axeBowSmokePcFullMinus1DefendedRight {
+  left: 895px;
+  top: 278px;
+  z-index: 925;
+}  
+
+#axeBowSmokePcFullDefendedRight {
+  left: 879px;
+  top: 280px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionPcDefendedLeft {
+  left: 768px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionPcDefendedRight {
+  left: 769px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus9DefendedLeft {
+  left: 835px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus8DefendedLeft {
+  left: 833px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus7DefendedLeft {
+  left: 837px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus6DefendedLeft {
+  left: 837px;
+  top: 289px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus5DefendedLeft {
+  left: 838px;
+  top: 290px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus4DefendedLeft {
+  left: 833px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus3DefendedLeft {
+  left: 834px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus2DefendedLeft {
+  left: 834px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus1DefendedLeft {
+  left: 831px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullDefendedLeft {
+  left: 833px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus9DefendedRight {
+  left: 1009px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus8DefendedRight {
+  left: 992px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus7DefendedRight {
+  left: 981px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus6DefendedRight {
+  left: 967px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus5DefendedRight {
+  left: 954px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus4DefendedRight {
+  left: 941px;
+  top: 281px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus3DefendedRight {
+  left: 926px;
+  top: 278px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus2DefendedRight {
+  left: 909px;
+  top: 279px;
+  z-index: 925;
+}
+
+#axeSwordSmokePcFullMinus1DefendedRight {
+  left: 895px;
+  top: 279px;
+  z-index: 925;
+}  
+
+#axeSwordSmokePcFullDefendedRight {
+  left: 880px;
+  top: 280px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionPcDefendedLeft {
+  left: 742px;
+  top: 195px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionPcDefendedRight {
+  left: 756px;
+  top: 196px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus9DefendedLeft {
+  left: 834px;
+  top: 289px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus8DefendedLeft {
+  left: 832px;
+  top: 288px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus7DefendedLeft {
+  left: 837px;
+  top: 292px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus6DefendedLeft {
+  left: 836px;
+  top: 291px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus5DefendedLeft {
+  left: 837px;
+  top: 290px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus4DefendedLeft {
+  left: 832px;
+  top: 287px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus3DefendedLeft {
+  left: 832px;
+  top: 285px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus2DefendedLeft {
+  left: 834px;
+  top: 285px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus1DefendedLeft {
+  left: 830px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullDefendedLeft {
+  left: 831px;
+  top: 285px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus9DefendedRight {
+  left: 1029px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus8DefendedRight {
+  left: 1019px;
+  top: 285px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus7DefendedRight {
+  left: 1014px;
+  top: 288px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus6DefendedRight {
+  left: 1001px;
+  top: 286px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus5DefendedRight {
+  left: 990px;
+  top: 284px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus4DefendedRight {
+  left: 971px;
+  top: 280px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus3DefendedRight {
+  left: 959px;
+  top: 280px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus2DefendedRight {
+  left: 953px;
+  top: 281px;
+  z-index: 925;
+}
+
+#bowSwordSmokePcFullMinus1DefendedRight {
+  left: 939px;
+  top: 281px;
+  z-index: 925;
+}  
+
+#bowSwordSmokePcFullDefendedRight {
+  left: 920px;
+  top: 281px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionPcDefendedLeft {
+  left: 742px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionPcDefendedRight {
+  left: 755px;
+  top: 195px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus9DefendedLeft {
+  left: 834px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus8DefendedLeft {
+  left: 833px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus7DefendedLeft {
+  left: 837px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus6DefendedLeft {
+  left: 836px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus5DefendedLeft {
+  left: 837px;
+  top: 288px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus4DefendedLeft {
+  left: 833px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus3DefendedLeft {
+  left: 833px;
+  top: 281px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus2DefendedLeft {
+  left: 834px;
+  top: 282px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus1DefendedLeft {
+  left: 830px;
+  top: 280px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullDefendedLeft {
+  left: 831px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus9DefendedRight {
+  left: 1010px;
+  top: 286px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus8DefendedRight {
+  left: 993px;
+  top: 285px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus7DefendedRight {
+  left: 982px;
+  top: 283px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus6DefendedRight {
+  left: 968px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus5DefendedRight {
+  left: 956px;
+  top: 284px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus4DefendedRight {
+  left: 942px;
+  top: 280px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus3DefendedRight {
+  left: 927px;
+  top: 278px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus2DefendedRight {
+  left: 910px;
+  top: 279px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokePcFullMinus1DefendedRight {
+  left: 896px;
+  top: 277px;
+  z-index: 925;
+}  
+
+#axeBowSwordSmokePcFullDefendedRight {
+  left: 881px;
+  top: 280px;
+  z-index: 925;
+}
+
+#fireworkAxePcDefendedLeft {
+  left: 878px;
+  top: 294px;
+  z-index: 925;
+}
+
+#fireworkAxePcDefendedRight {
+  left: 892px;
+  top: 287px;
+  z-index: 925;
+}
+
+#fireworkBowPcDefendedLeft {
+  left: 858px;
+  top: 301px;
+  z-index: 925;
+}
+
+#fireworkBowPcDefendedRight {
+  left: 939px;
+  top: 297px;
+  z-index: 925;
+}
+
+#fireworkSwordPcDefendedLeft {
+  left: 845px;
+  top: 299px;
+  z-index: 925;
+}
+
+#fireworkSwordPcDefendedRight {
+  left: 1008px;
+  top: 296px;
+  z-index: 925;
+}
+
+#fireworkAxeShimmerPcFullDefendedLeft {
+  left: 867px;
+  top: 286px;
+  z-index: 926;
+}
+
+#fireworkAxeShimmerPcFullDefendedRight {
+  left: 886px;
+  top: 284px;
+  z-index: 926;
+}
+
+#fireworkBowShimmerPcFullDefendedLeft {
+  left: 849px;
+  top: 292px;
+  z-index: 926;
+}
+
+#fireworkBowShimmerPcFullDefendedRight {
+  left: 932px;
+  top: 289px;
+  z-index: 926;
+}
+
+#fireworkSwordShimmerPcFullDefendedLeft {
+  left: 837px;
+  top: 286px;
+  z-index: 926;
+}
+
+#fireworkSwordShimmerPcFullDefendedRight {
+  left: 998px;
+  top: 283px;
+  z-index: 926;
+}
+
+/*npc greyWiz*/
+
+#greyWizArmNpcDefaultLeft {
+  left: 845px;
+  top: 18px;
+}
+
+#greyWizArmNpcDefaultRight {
+  left: 1001px;
+  top: 24px;
+}
+
+#greyWizArmNpcDefendLeft {
+  left: 850px;
+  top: -5px;
+}
+
+#greyWizArmNpcDefendRight {
+  left: 999px;
+  top: 10px;
+}
+
+#greyWizNpcWithoutArms {
+  left: 842px;
+  top: -28px;
+}
+
+#greyWizNpcStruckLeft {
+  left: 795px;
+  top: -7px;  
+}
+
+#greyWizNpcStruckRight {
+  left: 793px;
+  top: 17px;  
+}
+
+#greyWizNpcWithoutHands {
+  left: 846px;
+  top: 27px;
+}
+
+#greyWizHandNpcDefaultLeft {
+  left: 856px;
+  top: 21px;
+}
+
+#greyWizHandNpc15DegreesLeft {
+  left: 778px;
+  top: 18px;
+}
+
+#greyWizHandNpc30DegreesLeft {
+  left: 711px;
+  top: 30px;
+}
+
+#greyWizHandNpc45DegreesLeft {
+  left: 675px;
+  top: 65px;
+}
+
+#greyWizHandNpcDefaultRight {
+  left: 985px;
+  top: 19px;
+}
+
+#greyWizHandNpc345DegreesRight {
+  left: 962px;
+  top: 19px;
+}
+
+#greyWizHandNpc330DegreesRight {
+  left: 910px;
+  top: 30px;
+}
+
+#greyWizHandNpc315DegreesRight {
+  left: 886px;
+  top: 76px;
+}
+
+#protrudingFireworkTop_0NpcLeft {
+  left: 861px;
+  top: 246px;
+}
+
+#protrudingFireworkTop_1NpcLeft {
+  left: 840px;
+  top: 255px;
+}
+
+#protrudingFireworkTop_2NpcLeft {
+  left: 833px;
+  top: 247px;
+}
+
+#protrudingFireworkTop_3NpcLeft {
+  left: 846px;
+  top: 227px;
+}
+
+#protrudingFireworkTop_4NpcLeft {
+  left: 862px;
+  top: 219px;
+}
+
+#protrudingFireworkTop_5NpcLeft {
+  left: 868px;
+  top: 232px;
+}
+
+#protrudingFireworkTop_6NpcLeft {
+  left: 868px;
+  top: 243px;
+}
+
+#protrudingFireworkTop_7NpcLeft {
+  left: 862px;
+  top: 248px;
+}
+
+#protrudingFireworkMiddle_0NpcLeft {
+  left: 859px;
+  top: 298px;
+}
+
+#protrudingFireworkMiddle_1NpcLeft {
+  left: 835px;
+  top: 302px;
+}
+
+#protrudingFireworkMiddle_2NpcLeft {
+  left: 828px;
+  top: 294px;
+}
+
+#protrudingFireworkMiddle_3NpcLeft {
+  left: 843px;
+  top: 272px;
+}
+
+#protrudingFireworkMiddle_4NpcLeft {
+  left: 860px;
+  top: 268px;
+}
+
+#protrudingFireworkMiddle_5NpcLeft {
+  left: 868px;
+  top: 277px;
+}
+
+#protrudingFireworkMiddle_6NpcLeft {
+  left: 863px;
+  top: 293px;
+}
+
+#protrudingFireworkMiddle_7NpcLeft {
+  left: 860px;
+  top: 299px;
+}
+
+#protrudingFireworkBottom_0NpcLeft {
+  left: 861px;
+  top: 357px;
+}
+
+#protrudingFireworkBottom_1NpcLeft {
+  left: 842px;
+  top: 357px;
+}
+
+#protrudingFireworkBottom_2NpcLeft {
+  left: 833px;
+  top: 353px;
+}
+
+#protrudingFireworkBottom_3NpcLeft {
+  left: 844px;
+  top: 331px;
+}
+
+#protrudingFireworkBottom_4NpcLeft {
+  left: 862px;
+  top: 322px;
+}
+
+#protrudingFireworkBottom_5NpcLeft {
+  left: 868px;
+  top: 335px;
+}
+
+#protrudingFireworkBottom_6NpcLeft {
+  left: 865px;
+  top: 353px;
+}
+
+#protrudingFireworkBottom_7NpcLeft {
+  left: 865px;
+  top: 350px;
+}
+
+#topFirework_0NpcLeft {
+  left: 850px;
+  top: 238px;
+}
+
+#topFirework_1NpcLeft {
+  left: 861px;
+  top: 239px;
+}
+
+#topFirework_2NpcLeft {
+  left: 875px;
+  top: 269px;
+}
+
+#topFirework_3NpcLeft {
+  left: 801px;
+  top: 305px;
+}
+
+#topFirework_4NpcLeft {
+  left: 741px;
+  top: 348px;
+}
+
+#topFirework_5NpcLeft {
+  left: 747px;
+  top: 382px;
+}
+
+#topFirework_6NpcLeft {
+  left: 748px;
+  top: 414px;
+}
+
+#middleFirework_0NpcLeft {
+  left: 854px;
+  top: 292px;
+}
+
+#middleFirework_1NpcLeft {
+  left: 868px;
+  top: 301px;
+}
+
+#middleFirework_2NpcLeft {
+  left: 868px;
+  top: 303px;
+}
+
+#topFirework_3Z_1NpcLeft {
+  left: 1009px;
+  top: 546px;
+  z-index: 500;   
+}
+
+#middleFirework_3NpcLeft {
+  left: 812px;
+  top: 321px;
+}
+
+#middleFirework_4NpcLeft {
+  left: 762px;
+  top: 356px;
+}
+
+#middleFirework_5NpcLeft {
+  left: 768px;
+  top: 423px;
+}
+
+#bottomFirework_0NpcLeft {
+  left: 868px;
+  top: 359px;
+}
+
+#bottomFirework_1NpcLeft {
+  left: 864px;
+  top: 357px;
+}
+
+#middleFirework_2Z_2NpcLeft {
+  left: 1152px;
+  top: 518px;
+  z-index: 400;
+}
+
+#bottomFirework_2NpcLeft {
+  left: 877px;
+  top: 368px;
+}
+
+#middleFirework_3Z_2NpcLeft {
+  left: 955px;
+  top: 499px;
+  z-index: 400;
+}
+
+#topFirework_4Z_1NpcLeft {
+  left: 828px;
+  top: 523px;
+  z-index: 500;
+}
+
+#bottomFirework_3NpcLeft {
+  left: 787px;
+  top: 398px;
+}
+
+#middleFirework_4Z_2NpcLeft {
+  left: 799px;
+  top: 535px;
+}
+
+#topFirework_5Z_1NpcLeft {
+  left: 756px;
+  top: 535px;
+  z-index: 500;
+}
+
+#bottomFirework_4NpcLeft {
+  left: 778px;
+  top: 433px;
+}
+
+#middleFirework_5Z_4NpcLeft {
+  left: 840px;
+  top: 533px;
+  z-index: 200;
+}
+
+#topFirework_6Z_3NpcLeft {
+  left: 795px;
+  top: 531px;
+  z-index: 300;
+}
+
+#middleFirework_5Z_2NpcLeft {
+  left: 868px;
+  top: 535px;
+  z-index: 400;
+}
+
+#topFirework_6Z_1NpcLeft {
+  left: 869px;
+  top: 525px;
+  z-index: 500;
+}
+
+#axeFireworkExplosionNpcLeft {
+  left: 544px;
+  top: 336px;
+}
+
+#axeSmokeNpcFullMinus10Left {
+  left: 817px;
+  top: 702px;
+}
+
+#axeSmokeNpcFullMinus9Left {
+  left: 798px;
+  top: 660px;
+}
+
+#axeSmokeNpcFullMinus8Left {
+  left: 790px;
+  top: 653px;
+}
+
+#axeSmokeNpcFullMinus7Left {
+  left: 777px;
+  top: 627px;
+}
+
+#axeSmokeNpcFullMinus6Left {
+  left: 762px;
+  top: 603px;
+}
+
+#axeSmokeNpcFullMinus5Left {
+  left: 744px;
+  top: 591px;
+}
+
+#axeSmokeNpcFullMinus4Left {
+  left: 718px;
+  top: 572px;
+}
+
+#axeSmokeNpcFullMinus3Left {
+  left: 713px;
+  top: 528px;
+}
+
+#axeSmokeNpcFullMinus2Left {
+  left: 705px;
+  top: 503px;
+}
+
+#axeSmokeNpcFullMinus1Left {
+  left: 689px;
+  top: 472px;
+}
+
+#axeSmokeNpcFullLeft {
+  left: 660px;
+  top: 446px;
+}
+
+#bowFireworkExplosionNpcLeft {
+  left: 536px;
+  top: 341px;
+}
+
+#bowSmokeNpcFullMinus10Left {
+  left: 802px;
+  top: 716px;
+}
+
+#bowSmokeNpcFullMinus9Left {
+  left: 793px;
+  top: 691px;
+}
+
+#bowSmokeNpcFullMinus8Left {
+  left: 807px;
+  top: 685px;
+}
+
+#bowSmokeNpcFullMinus7Left {
+  left: 799px;
+  top: 658px;
+}
+
+#bowSmokeNpcFullMinus6Left {
+  left: 791px;
+  top: 600px;
+}
+
+#bowSmokeNpcFullMinus5Left {
+  left: 768px;
+  top: 558px;
+}
+
+#bowSmokeNpcFullMinus4Left {
+  left: 772px;
+  top: 538px;
+}
+
+#bowSmokeNpcFullMinus3Left {
+  left: 767px;
+  top: 473px;
+}
+
+#bowSmokeNpcFullMinus2Left {
+  left: 761px;
+  top: 440px;
+}
+
+#bowSmokeNpcFullMinus1Left {
+  left: 751px;
+  top: 393px;
+}
+
+#bowSmokeNpcFullLeft {
+  left: 739px;
+  top: 357px;
+}
+
+#swordFireworkExplosionNpcLeft {
+  left: 536px;
+  top: 431px;
+}
+
+#swordSmokeNpcFullMinus10Left {
+  left: 820px;
+  top: 684px;
+}
+
+#swordSmokeNpcFullMinus9Left {
+  left: 822px;
+  top: 682px;
+}
+
+#swordSmokeNpcFullMinus8Left {
+  left: 815px;
+  top: 652px;
+}
+
+#swordSmokeNpcFullMinus7Left {
+  left: 816px;
+  top: 569px;
+}
+
+#swordSmokeNpcFullMinus6Left {
+  left: 817px;
+  top: 530px;
+}
+
+#swordSmokeNpcFullMinus5Left {
+  left: 800px;
+  top: 513px;
+}
+
+#swordSmokeNpcFullMinus4Left {
+  left: 807px;
+  top: 479px;
+}
+
+#swordSmokeNpcFullMinus3Left {
+  left: 817px;
+  top: 443px;
+}
+
+#swordSmokeNpcFullMinus2Left {
+  left: 809px;
+  top: 381px;
+}
+
+#swordSmokeNpcFullMinus1Left {
+  left: 810px;
+  top: 306px;
+}
+
+#swordSmokeNpcFullLeft {
+  left: 809px;
+  top: 277px;
+}
+
+#axeBowFireworkExplosionNpcLeft {
+  left: 536px;
+  top: 324px;
+}
+
+#axeBowSmokeNpcFullMinus10Left {
+  left: 801px;
+  top: 701px;
+}
+
+#axeBowSmokeNpcFullMinus9Left {
+  left: 793px;
+  top: 660px;
+}
+
+#axeBowSmokeNpcFullMinus8Left {
+  left: 790px;
+  top: 643px;
+}
+
+#axeBowSmokeNpcFullMinus7Left {
+  left: 777px;
+  top: 626px;
+}
+
+#axeBowSmokeNpcFullMinus6Left {
+  left: 761px;
+  top: 603px;
+}
+
+#axeBowSmokeNpcFullMinus5Left {
+  left: 745px;
+  top: 561px;
+}
+
+#axeBowSmokeNpcFullMinus4Left {
+  left: 719px;
+  top: 540px;
+}
+
+#axeBowSmokeNpcFullMinus3Left {
+  left: 713px;
+  top: 487px;
+}
+
+#axeBowSmokeNpcFullMinus2Left {
+  left: 705px;
+  top: 441px;
+}
+
+#axeBowSmokeNpcFullMinus1Left {
+  left: 689px;
+  top: 392px;
+}
+
+#axeBowSmokeNpcFullLeft {
+  left: 659px;
+  top: 350px;
+}
+
+#axeSwordFireworkExplosionNpcLeft {
+  left: 537px;
+  top: 327px;
+}
+
+#axeSwordSmokeNpcFullMinus10Left {
+  left: 818px;
+  top: 684px;
+}
+
+#axeSwordSmokeNpcFullMinus9Left {
+  left: 798px;
+  top: 660px;
+}
+
+#axeSwordSmokeNpcFullMinus8Left {
+  left: 789px;
+  top: 623px;
+}
+
+#axeSwordSmokeNpcFullMinus7Left {
+  left: 778px;
+  top: 569px;
+}
+
+#axeSwordSmokeNpcFullMinus6Left {
+  left: 761px;
+  top: 528px;
+}
+
+#axeSwordSmokeNpcFullMinus5Left {
+  left: 743px;
+  top: 512px;
+}
+
+#axeSwordSmokeNpcFullMinus4Left {
+  left: 719px;
+  top: 481px;
+}
+
+#axeSwordSmokeNpcFullMinus3Left {
+  left: 712px;
+  top: 443px;
+}
+
+#axeSwordSmokeNpcFullMinus2Left {
+  left: 705px;
+  top: 383px;
+}
+
+#axeSwordSmokeNpcFullMinus1Left {
+  left: 690px;
+  top: 319px;
+}
+
+#axeSwordSmokeNpcFullLeft {
+  left: 660px;
+  top: 276px;
+}
+
+#bowSwordFireworkExplosionNpcLeft {
+  left: 521px;
+  top: 314px;
+}
+
+#bowSwordSmokeNpcFullMinus10Left {
+  left: 797px;
+  top: 681px;
+}
+
+#bowSwordSmokeNpcFullMinus9Left {
+  left: 790px;
+  top: 661px;
+}
+
+#bowSwordSmokeNpcFullMinus8Left {
+  left: 790px;
+  top: 626px;
+}
+
+#bowSwordSmokeNpcFullMinus7Left {
+  left: 778px;
+  top: 568px;
+}
+
+#bowSwordSmokeNpcFullMinus6Left {
+  left: 743px;
+  top: 528px;
+}
+
+#bowSwordSmokeNpcFullMinus5Left {
+  left: 779px;
+  top: 513px;
+}
+
+#bowSwordSmokeNpcFullMinus4Left {
+  left: 772px;
+  top: 480px;
+}
+
+#bowSwordSmokeNpcFullMinus3Left {
+  left: 771px;
+  top: 445px;
+}
+
+#bowSwordSmokeNpcFullMinus2Left {
+  left: 743px;
+  top: 381px;
+}
+
+#bowSwordSmokeNpcFullMinus1Left {
+  left: 746px;
+  top: 320px;
+}
+
+#bowSwordSmokeNpcFullLeft {
+  left: 737px;
+  top: 277px;
+}
+
+#axeBowSwordFireworkExplosionNpcLeft {
+  left: 517px;
+  top: 314px;
+}
+
+#axeBowSwordSmokeNpcFullMinus10Left {
+  left: 797px;
+  top: 681px;
+}
+
+#axeBowSwordSmokeNpcFullMinus9Left {
+  left: 793px;
+  top: 660px;
+}
+
+#axeBowSwordSmokeNpcFullMinus8Left {
+  left: 790px;
+  top: 625px;
+}
+
+#axeBowSwordSmokeNpcFullMinus7Left {
+  left: 777px;
+  top: 568px;
+}
+
+#axeBowSwordSmokeNpcFullMinus6Left {
+  left: 760px;
+  top: 529px;
+}
+
+#axeBowSwordSmokeNpcFullMinus5Left {
+  left: 744px;
+  top: 514px;
+}
+
+#axeBowSwordSmokeNpcFullMinus4Left {
+  left: 718px;
+  top: 480px;
+}
+
+#axeBowSwordSmokeNpcFullMinus3Left {
+  left: 712px;
+  top: 443px;
+}
+
+#axeBowSwordSmokeNpcFullMinus2Left {
+  left: 705px;
+  top: 383px;
+}
+
+#axeBowSwordSmokeNpcFullMinus1Left {
+  left: 690px;
+  top: 319px;
+}
+
+#axeBowSwordSmokeNpcFullLeft {
+  left: 660px;
+  top: 277px;
+}
+
+#fireworkAxeNpcLeft {
+  left: 689px;
+  top: 470px;
+}
+
+#fireworkBowNpcLeft {
+  left: 766px;
+  top: 381px;
+}
+
+#fireworkSwordNpcLeft {
+  left: 825px;
+  top: 295px;
+}
+
+#fireworkAxeShimmerNpcFullLeft {
+  left: 677px;
+  top: 460px;
+}
+
+#fireworkBowShimmerNpcFullLeft {
+  left: 724px;
+  top: 374px;
+}
+
+#fireworkSwordShimmerNpcFullLeft {
+  left: 776px;
+  top: 278px;
+}
+
+#protrudingFireworkTop_0NpcRight {
+  left: 1031px;
+  top: 246px;
+}
+
+#protrudingFireworkTop_1NpcRight {
+  left: 1036px;
+  top: 255px;
+}
+
+#protrudingFireworkTop_2NpcRight {
+  left: 1035px;
+  top: 247px;
+}
+
+#protrudingFireworkTop_3NpcRight {
+  left: 1037px;
+  top: 227px;
+}
+
+#protrudingFireworkTop_4NpcRight {
+  left: 1030px;
+  top: 220px;
+}
+
+#protrudingFireworkTop_5NpcRight {
+  left: 1005px;
+  top: 233px;
+}
+
+#protrudingFireworkTop_6NpcRight {
+  left: 997px;
+  top: 243px;
+}
+
+#protrudingFireworkTop_7NpcRight {
+  left: 1012px;
+  top: 248px;
+}
+
+#protrudingFireworkMiddle_0NpcRight {
+  left: 1029px;
+  top: 298px;
+}
+
+#protrudingFireworkMiddle_1NpcRight {
+  left: 1035px;
+  top: 302px;
+}
+
+#protrudingFireworkMiddle_2NpcRight {
+  left: 1034px;
+  top: 294px;
+}
+
+#protrudingFireworkMiddle_3NpcRight {
+  left: 1037px;
+  top: 271px;
+}
+
+#protrudingFireworkMiddle_4NpcRight {
+  left: 1029px;
+  top: 268px;
+}
+
+#protrudingFireworkMiddle_5NpcRight {
+  left: 1005px;
+  top: 277px;
+}
+
+#protrudingFireworkMiddle_6NpcRight {
+  left: 998px;
+  top: 293px;
+}
+
+#protrudingFireworkMiddle_7NpcRight {
+  left: 1014px;
+  top: 298px;
+}
+
+#protrudingFireworkBottom_0NpcRight {
+  left: 1027px;
+  top: 357px;
+}
+
+#protrudingFireworkBottom_1NpcRight {
+  left: 1033px;
+  top: 356px;
+}
+
+#protrudingFireworkBottom_2NpcRight {
+  left: 1032px;
+  top: 353px;
+}
+
+#protrudingFireworkBottom_3NpcRight {
+  left: 1034px;
+  top: 333px;
+}
+
+#protrudingFireworkBottom_4NpcRight {
+  left: 1027px;
+  top: 323px;
+}
+
+#protrudingFireworkBottom_5NpcRight {
+  left: 1005px;
+  top: 336px;
+}
+
+#protrudingFireworkBottom_6NpcRight {
+  left: 993px;
+  top: 352px;
+}
+
+#protrudingFireworkBottom_7NpcRight {
+  left: 1001px;
+  top: 346px;
+}
+
+#topFirework_0NpcRight {
+  left: 881px;
+  top: 235px;
+}
+
+#topFirework_1NpcRight {
+  left: 689px;
+  top: 235px;
+}
+
+#topFirework_2NpcRight {
+  left: 689px;
+  top: 268px;
+}
+
+#topFirework_3NpcRight {
+  left: 696px;
+  top: 304px;
+}
+
+#topFirework_4NpcRight {
+  left: 693px;
+  top: 348px;
+}
+
+#topFirework_5NpcRight {
+  left: 688px;
+  top: 380px;
+}
+
+#topFirework_6NpcRight {
+  left: 690px;
+  top: 412px;
+}
+
+#middleFirework_0NpcRight {
+  left: 868px;
+  top: 285px;
+}
+
+#middleFirework_1NpcRight {
+  left: 720px;
+  top: 297px;
+}
+
+#middleFirework_2NpcRight {
+  left: 716px;
+  top: 301px;
+}
+
+#topFirework_3Z_1NpcRight {
+  left: 708px;
+  top: 540px;
+  z-index: 500;   
+}
+
+#middleFirework_3NpcRight {
+  left: 718px;
+  top: 326px;
+}
+
+#middleFirework_4NpcRight {
+  left: 709px;
+  top: 348px;
+}
+
+#middleFirework_5NpcRight {
+  left: 710px;
+  top: 422px;
+}
+
+#bottomFirework_0NpcRight {
+  left: 851px;
+  top: 357px;
+}
+
+#bottomFirework_1NpcRight {
+  left: 727px;
+  top: 358px;
+}
+
+#middleFirework_2Z_2NpcRight {
+  left: 733px;
+  top: 503px;
+  z-index: 400;
+}
+
+#bottomFirework_2NpcRight {
+  left: 722px;
+  top: 367px;
+}
+
+#middleFirework_3Z_2NpcRight {
+  left: 729px;
+  top: 529px;
+  z-index: 400;
+}
+
+#topFirework_4Z_1NpcRight {
+  left: 713px;
+  top: 524px;
+  z-index: 500;
+}
+
+#bottomFirework_3NpcRight {
+  left: 724px;
+  top: 394px;
+}
+
+#middleFirework_4Z_2NpcRight {
+  left: 724px;
+  top: 519px;
+}
+
+#topFirework_5Z_1NpcRight {
+  left: 715px;
+  top: 514px;
+  z-index: 500;
+}
+
+#bottomFirework_4NpcRight {
+  left: 724px;
+  top: 432px;
+}
+
+#middleFirework_5Z_4NpcRight {
+  left: 752px;
+  top: 535px;
+  z-index: 200;
+}
+
+#topFirework_6Z_3NpcRight {
+  left: 700px;
+  top: 545px;
+  z-index: 300;
+}
+
+#middleFirework_5Z_2NpcRight {
+  left: 1023px;
+  top: 557px;
+  z-index: 400;
+}
+
+#topFirework_6Z_1NpcRight {
+  left: 976px;
+  top: 574px;
+  z-index: 500;
+}
+
+#axeFireworkExplosionNpcRight {
+  left: 726px;
+  top: 322px;
+}
+
+#axeSmokeNpcFullMinus10Right {
+  left: 1026px;
+  top: 703px;
+}
+
+#axeSmokeNpcFullMinus9Right {
+  left: 1056px;
+  top: 663px;
+}
+
+#axeSmokeNpcFullMinus8Right {
+  left: 1055px;
+  top: 658px;
+}
+
+#axeSmokeNpcFullMinus7Right {
+  left: 1056px;
+  top: 628px;
+}
+
+#axeSmokeNpcFullMinus6Right {
+  left: 1059px;
+  top: 604px;
+}
+
+#axeSmokeNpcFullMinus5Right {
+  left: 1056px;
+  top: 592px;
+}
+
+#axeSmokeNpcFullMinus4Right {
+  left: 1077px;
+  top: 570px;
+}
+
+#axeSmokeNpcFullMinus3Right {
+  left: 1081px;
+  top: 527px;
+}
+
+#axeSmokeNpcFullMinus2Right {
+  left: 1077px;
+  top: 507px;
+}
+
+#axeSmokeNpcFullMinus1Right {
+  left: 1079px;
+  top: 470px;
+}
+
+#axeSmokeNpcFullRight {
+  left: 1077px;
+  top: 442px;
+}
+
+#bowFireworkExplosionNpcRight {
+  left: 694px;
+  top: 304px;
+}
+
+#bowSmokeNpcFullMinus10Right {
+  left: 1078px;
+  top: 716px;
+}
+
+#bowSmokeNpcFullMinus9Right {
+  left: 1063px;
+  top: 693px;
+}
+
+#bowSmokeNpcFullMinus8Right {
+  left: 1057px;
+  top: 689px;
+}
+
+#bowSmokeNpcFullMinus7Right {
+  left: 1057px;
+  top: 661px;
+}
+
+#bowSmokeNpcFullMinus6Right {
+  left: 1050px;
+  top: 602px;
+}
+
+#bowSmokeNpcFullMinus5Right {
+  left: 1041px;
+  top: 558px;
+}
+
+#bowSmokeNpcFullMinus4Right {
+  left: 1039px;
+  top: 535px;
+}
+
+#bowSmokeNpcFullMinus3Right {
+  left: 1039px;
+  top: 470px;
+}
+
+#bowSmokeNpcFullMinus2Right {
+  left: 1041px;
+  top: 445px;
+}
+
+#bowSmokeNpcFullMinus1Right {
+  left: 1038px;
+  top: 391px;
+}
+
+#bowSmokeNpcFullRight {
+  left: 1037px;
+  top: 342px;
+}
+
+#swordFireworkExplosionNpcRight {
+  left: 684px;
+  top: 410px;
+}
+
+#swordSmokeNpcFullMinus10Right {
+  left: 1051px;
+  top: 685px;
+}
+
+#swordSmokeNpcFullMinus9Right {
+  left: 1046px;
+  top: 678px;
+}
+
+#swordSmokeNpcFullMinus8Right {
+  left: 1037px;
+  top: 629px;
+}
+
+#swordSmokeNpcFullMinus7Right {
+  left: 1032px;
+  top: 570px;
+}
+
+#swordSmokeNpcFullMinus6Right {
+  left: 1029px;
+  top: 528px;
+}
+
+#swordSmokeNpcFullMinus5Right {
+  left: 1023px;
+  top: 505px;
+}
+
+#swordSmokeNpcFullMinus4Right {
+  left: 1019px;
+  top: 478px;
+}
+
+#swordSmokeNpcFullMinus3Right {
+  left: 1010px;
+  top: 441px;
+}
+
+#swordSmokeNpcFullMinus2Right {
+  left: 1001px;
+  top: 387px;
+}
+
+#swordSmokeNpcFullMinus1Right {
+  left: 991px;
+  top: 319px;
+}
+
+#swordSmokeNpcFullRight {
+  left: 986px;
+  top: 273px;
+}
+
+#axeBowFireworkExplosionNpcRight {
+  left: 716px;
+  top: 312px;
+}
+
+#axeBowSmokeNpcFullMinus10Right {
+  left: 1065px;
+  top: 702px;
+}
+
+#axeBowSmokeNpcFullMinus9Right {
+  left: 1059px;
+  top: 664px;
+}
+
+#axeBowSmokeNpcFullMinus8Right {
+  left: 1041px;
+  top: 641px;
+}
+
+#axeBowSmokeNpcFullMinus7Right {
+  left: 1051px;
+  top: 628px;
+}
+
+#axeBowSmokeNpcFullMinus6Right {
+  left: 1053px;
+  top: 603px;
+}
+
+#axeBowSmokeNpcFullMinus5Right {
+  left: 1042px;
+  top: 562px;
+}
+
+#axeBowSmokeNpcFullMinus4Right {
+  left: 1064px;
+  top: 538px;
+}
+
+#axeBowSmokeNpcFullMinus3Right {
+  left: 1053px;
+  top: 483px;
+}
+
+#axeBowSmokeNpcFullMinus2Right {
+  left: 1038px;
+  top: 444px;
+}
+
+#axeBowSmokeNpcFullMinus1Right {
+  left: 1040px;
+  top: 388px;
+}
+
+#axeBowSmokeNpcFullRight {
+  left: 1040px;
+  top: 349px;
+}
+
+#axeSwordFireworkExplosionNpcRight {
+  left: 723px;
+  top: 319px;
+}
+
+#axeSwordSmokeNpcFullMinus10Right {
+  left: 1052px;
+  top: 686px;
+}
+
+#axeSwordSmokeNpcFullMinus9Right {
+  left: 1050px;
+  top: 664px;
+}
+
+#axeSwordSmokeNpcFullMinus8Right {
+  left: 1037px;
+  top: 627px;
+}
+
+#axeSwordSmokeNpcFullMinus7Right {
+  left: 1032px;
+  top: 568px;
+}
+
+#axeSwordSmokeNpcFullMinus6Right {
+  left: 1029px;
+  top: 529px;
+}
+
+#axeSwordSmokeNpcFullMinus5Right {
+  left: 1025px;
+  top: 513px;
+}
+
+#axeSwordSmokeNpcFullMinus4Right {
+  left: 1031px;
+  top: 479px;
+}
+
+#axeSwordSmokeNpcFullMinus3Right {
+  left: 1018px;
+  top: 441px;
+}
+
+#axeSwordSmokeNpcFullMinus2Right {
+  left: 1005px;
+  top: 387px;
+}
+
+#axeSwordSmokeNpcFullMinus1Right {
+  left: 995px;
+  top: 319px;
+}
+
+#axeSwordSmokeNpcFullRight {
+  left: 991px;
+  top: 273px;
+}
+
+#bowSwordFireworkExplosionNpcRight {
+  left: 705px;
+  top: 314px;
+}
+
+#bowSwordSmokeNpcFullMinus10Right {
+  left: 1049px;
+  top: 682px;
+}
+
+#bowSwordSmokeNpcFullMinus9Right {
+  left: 1047px;
+  top: 663px;
+}
+
+#bowSwordSmokeNpcFullMinus8Right {
+  left: 1036px;
+  top: 627px;
+}
+
+#bowSwordSmokeNpcFullMinus7Right {
+  left: 1031px;
+  top: 568px;
+}
+
+#bowSwordSmokeNpcFullMinus6Right {
+  left: 1029px;
+  top: 528px;
+}
+
+#bowSwordSmokeNpcFullMinus5Right {
+  left: 1023px;
+  top: 513px;
+}
+
+#bowSwordSmokeNpcFullMinus4Right {
+  left: 1032px;
+  top: 480px;
+}
+
+#bowSwordSmokeNpcFullMinus3Right {
+  left: 1021px;
+  top: 442px;
+}
+
+#bowSwordSmokeNpcFullMinus2Right {
+  left: 1008px;
+  top: 387px;
+}
+
+#bowSwordSmokeNpcFullMinus1Right {
+  left: 997px;
+  top: 319px;
+}
+
+#bowSwordSmokeNpcFullRight {
+  left: 994px;
+  top: 273px;
+}
+
+#axeBowSwordFireworkExplosionNpcRight {
+  left: 691px;
+  top: 315px;
+}
+
+#axeBowSwordSmokeNpcFullMinus10Right {
+  left: 1049px;
+  top: 683px;
+}
+
+#axeBowSwordSmokeNpcFullMinus9Right {
+  left: 1049px;
+  top: 663px;
+}
+
+#axeBowSwordSmokeNpcFullMinus8Right {
+  left: 1041px;
+  top: 629px;
+}
+
+#axeBowSwordSmokeNpcFullMinus7Right {
+  left: 1035px;
+  top: 568px;
+}
+
+#axeBowSwordSmokeNpcFullMinus6Right {
+  left: 1033px;
+  top: 528px;
+}
+
+#axeBowSwordSmokeNpcFullMinus5Right {
+  left: 1029px;
+  top: 514px;
+}
+
+#axeBowSwordSmokeNpcFullMinus4Right {
+  left: 1035px;
+  top: 479px;
+}
+
+#axeBowSwordSmokeNpcFullMinus3Right {
+  left: 1025px;
+  top: 440px;
+}
+
+#axeBowSwordSmokeNpcFullMinus2Right {
+  left: 1012px;
+  top: 387px;
+}
+
+#axeBowSwordSmokeNpcFullMinus1Right {
+  left: 1002px;
+  top: 318px;
+}
+
+#axeBowSwordSmokeNpcFullRight {
+  left: 998px;
+  top: 274px;
+}
+
+#fireworkAxeNpcRight {
+  left: 1065px;
+  top: 463px;
+}
+
+#fireworkBowNpcRight {
+  left: 1055px;
+  top: 379px;
+}
+
+#fireworkSwordNpcRight {
+  left: 1008px;
+  top: 292px;
+}
+
+#fireworkAxeShimmerNpcFullRight {
+  left: 1061px;
+  top: 456px;
+}
+
+#fireworkBowShimmerNpcFullRight {
+  left: 1046px;
+  top: 369px;
+}
+
+#fireworkSwordShimmerNpcFullRight {
+  left: 1002px;
+  top: 288px;
+}
+
+#bottomFirework_5NpcLeft {
+  left: 775px;
+  top: 456px;
+}
+
+#bottomFirework_5NpcRight {
+  left: 734px;
+  top: 458px;
+}
+
+#middleFirework_6NpcLeft {
+  left: 758px;
+  top: 438px;
+}
+
+#middleFirework_6NpcRight {
+  left: 722px;
+  top: 438px;
+}
+
+#topFirework_7NpcLeft {
+  left: 758px;
+  top: 424px;
+}
+
+#topFirework_7NpcRight {
+  left: 713px;
+  top: 424px;
+}
+
+#bottomFirework_5Z_3NpcLeft {
+  left: 808px;
+  top: 466px;
+}
+
+#bottomFirework_5Z_3NpcRight {
+  left: 1055px;
+  top: 469px;
+}
+
+#middleFirework_6Z_2NpcLeft {
+  left: 801px;
+  top: 467px;
+}
+
+#middleFirework_6Z_2NpcRight {
+  left: 1023px;
+  top: 467px;
+}
+
+#topFirework_7Z_1NpcLeft {
+  left: 781px;
+  top: 468px;
+}
+
+#topFirework_7Z_1NpcRight {
+  left: 981px;
+  top: 470px;
+}
+
+#axeFireworkExplosionNpcDefendedLeft {
+  left: 745px;
+  top: 272px;
+  z-index: 925;
+}
+
+#axeFireworkExplosionNpcDefendedRight {
+  left: 723px;
+  top: 275px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus9DefendedLeft {
+  left: 833px;
+  top: 417px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus8DefendedLeft {
+  left: 835px;
+  top: 405px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus7DefendedLeft {
+  left: 831px;
+  top: 381px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus6DefendedLeft {
+  left: 829px;
+  top: 353px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus5DefendedLeft {
+  left: 832px;
+  top: 320px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus4DefendedLeft {
+  left: 831px;
+  top: 299px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus3DefendedLeft {
+  left: 829px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus2DefendedLeft {
+  left: 831px;
+  top: 269px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus1DefendedLeft {
+  left: 830px;
+  top: 245px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullDefendedLeft {
+  left: 823px;
+  top: 225px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus9DefendedRight {
+  left: 1043px;
+  top: 417px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus8DefendedRight {
+  left: 1035px;
+  top: 406px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus7DefendedRight {
+  left: 1003px;
+  top: 381px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus6DefendedRight {
+  left: 981px;
+  top: 353px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus5DefendedRight {
+  left: 958px;
+  top: 317px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus4DefendedRight {
+  left: 942px;
+  top: 297px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus3DefendedRight {
+  left: 928px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus2DefendedRight {
+  left: 903px;
+  top: 266px;
+  z-index: 925;
+}
+
+#axeSmokeNpcFullMinus1DefendedRight {
+  left: 885px;
+  top: 242px;
+  z-index: 925;
+}  
+
+#axeSmokeNpcFullDefendedRight {
+  left: 874px;
+  top: 225px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionNpcDefendedLeft {
+  left: 749px;
+  top: 270px;
+  z-index: 925;
+}
+
+#bowFireworkExplosionNpcDefendedRight {
+  left: 745px;
+  top: 273px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus9DefendedLeft {
+  left: 810px;
+  top: 412px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus8DefendedLeft {
+  left: 814px;
+  top: 403px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus7DefendedLeft {
+  left: 810px;
+  top: 377px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus6DefendedLeft {
+  left: 810px;
+  top: 342px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus5DefendedLeft {
+  left: 808px;
+  top: 311px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus4DefendedLeft {
+  left: 807px;
+  top: 289px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus3DefendedLeft {
+  left: 807px;
+  top: 264px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus2DefendedLeft {
+  left: 809px;
+  top: 243px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus1DefendedLeft {
+  left: 807px;
+  top: 220px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullDefendedLeft {
+  left: 808px;
+  top: 210px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus9DefendedRight {
+  left: 1071px;
+  top: 412px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus8DefendedRight {
+  left: 1064px;
+  top: 404px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus7DefendedRight {
+  left: 1045px;
+  top: 377px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus6DefendedRight {
+  left: 1027px;
+  top: 342px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus5DefendedRight {
+  left: 1007px;
+  top: 310px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus4DefendedRight {
+  left: 983px;
+  top: 288px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus3DefendedRight {
+  left: 970px;
+  top: 264px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus2DefendedRight {
+  left: 961px;
+  top: 240px;
+  z-index: 925;
+}
+
+#bowSmokeNpcFullMinus1DefendedRight {
+  left: 944px;
+  top: 217px;
+  z-index: 925;
+}  
+
+#bowSmokeNpcFullDefendedRight {
+  left: 924px;
+  top: 210px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionNpcDefendedLeft {
+  left: 755px;
+  top: 253px;
+  z-index: 925;
+}
+
+#swordFireworkExplosionNpcDefendedRight {
+  left: 792px;
+  top: 254px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus9DefendedLeft {
+  left: 787px;
+  top: 415px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus8DefendedLeft {
+  left: 791px;
+  top: 399px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus7DefendedLeft {
+  left: 791px;
+  top: 375px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus6DefendedLeft {
+  left: 787px;
+  top: 335px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus5DefendedLeft {
+  left: 787px;
+  top: 293px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus4DefendedLeft {
+  left: 783px;
+  top: 269px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus3DefendedLeft {
+  left: 787px;
+  top: 256px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus2DefendedLeft {
+  left: 790px;
+  top: 220px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus1DefendedLeft {
+  left: 786px;
+  top: 201px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullDefendedLeft {
+  left: 789px;
+  top: 184px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus9DefendedRight {
+  left: 1086px;
+  top: 414px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus8DefendedRight {
+  left: 1082px;
+  top: 400px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus7DefendedRight {
+  left: 1072px;
+  top: 373px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus6DefendedRight {
+  left: 1059px;
+  top: 333px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus5DefendedRight {
+  left: 1053px;
+  top: 290px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus4DefendedRight {
+  left: 1041px;
+  top: 267px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus3DefendedRight {
+  left: 1037px;
+  top: 255px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus2DefendedRight {
+  left: 1026px;
+  top: 216px;
+  z-index: 925;
+}
+
+#swordSmokeNpcFullMinus1DefendedRight {
+  left: 1018px;
+  top: 197px;
+  z-index: 925;
+}  
+
+#swordSmokeNpcFullDefendedRight {
+  left: 1019px;
+  top: 184px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionNpcDefendedLeft {
+  left: 746px;
+  top: 270px;
+  z-index: 925;
+}
+
+#axeBowFireworkExplosionNpcDefendedRight {
+  left: 723px;
+  top: 272px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus9DefendedLeft {
+  left: 811px;
+  top: 412px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus8DefendedLeft {
+  left: 813px;
+  top: 402px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus7DefendedLeft {
+  left: 810px;
+  top: 378px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus6DefendedLeft {
+  left: 810px;
+  top: 347px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus5DefendedLeft {
+  left: 806px;
+  top: 309px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus4DefendedLeft {
+  left: 806px;
+  top: 289px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus3DefendedLeft {
+  left: 806px;
+  top: 264px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus2DefendedLeft {
+  left: 809px;
+  top: 243px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus1DefendedLeft {
+  left: 807px;
+  top: 220px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullDefendedLeft {
+  left: 806px;
+  top: 209px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus9DefendedRight {
+  left: 1044px;
+  top: 413px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus8DefendedRight {
+  left: 1036px;
+  top: 404px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus7DefendedRight {
+  left: 1004px;
+  top: 377px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus6DefendedRight {
+  left: 982px;
+  top: 346px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus5DefendedRight {
+  left: 959px;
+  top: 308px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus4DefendedRight {
+  left: 943px;
+  top: 287px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus3DefendedRight {
+  left: 929px;
+  top: 264px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus2DefendedRight {
+  left: 904px;
+  top: 241px;
+  z-index: 925;
+}
+
+#axeBowSmokeNpcFullMinus1DefendedRight {
+  left: 886px;
+  top: 218px;
+  z-index: 925;
+}  
+
+#axeBowSmokeNpcFullDefendedRight {
+  left: 874px;
+  top: 209px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionNpcDefendedLeft {
+  left: 747px;
+  top: 254px;
+  z-index: 925;
+}
+
+#axeSwordFireworkExplosionNpcDefendedRight {
+  left: 722px;
+  top: 257px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus9DefendedLeft {
+  left: 788px;
+  top: 414px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus8DefendedLeft {
+  left: 792px;
+  top: 398px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus7DefendedLeft {
+  left: 792px;
+  top: 373px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus6DefendedLeft {
+  left: 789px;
+  top: 333px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus5DefendedLeft {
+  left: 788px;
+  top: 292px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus4DefendedLeft {
+  left: 785px;
+  top: 268px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus3DefendedLeft {
+  left: 789px;
+  top: 255px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus2DefendedLeft {
+  left: 791px;
+  top: 218px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus1DefendedLeft {
+  left: 787px;
+  top: 200px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullDefendedLeft {
+  left: 791px;
+  top: 185px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus9DefendedRight {
+  left: 1043px;
+  top: 414px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus8DefendedRight {
+  left: 1034px;
+  top: 400px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus7DefendedRight {
+  left: 1003px;
+  top: 373px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus6DefendedRight {
+  left: 981px;
+  top: 333px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus5DefendedRight {
+  left: 958px;
+  top: 289px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus4DefendedRight {
+  left: 942px;
+  top: 267px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus3DefendedRight {
+  left: 928px;
+  top: 256px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus2DefendedRight {
+  left: 903px;
+  top: 216px;
+  z-index: 925;
+}
+
+#axeSwordSmokeNpcFullMinus1DefendedRight {
+  left: 885px;
+  top: 197px;
+  z-index: 925;
+}  
+
+#axeSwordSmokeNpcFullDefendedRight {
+  left: 874px;
+  top: 184px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionNpcDefendedLeft {
+  left: 750px;
+  top: 251px;
+  z-index: 925;
+}
+
+#bowSwordFireworkExplosionNpcDefendedRight {
+  left: 744px;
+  top: 255px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus9DefendedLeft {
+  left: 787px;
+  top: 413px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus8DefendedLeft {
+  left: 791px;
+  top: 398px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus7DefendedLeft {
+  left: 790px;
+  top: 374px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus6DefendedLeft {
+  left: 787px;
+  top: 333px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus5DefendedLeft {
+  left: 786px;
+  top: 292px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus4DefendedLeft {
+  left: 783px;
+  top: 268px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus3DefendedLeft {
+  left: 787px;
+  top: 255px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus2DefendedLeft {
+  left: 789px;
+  top: 219px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus1DefendedLeft {
+  left: 785px;
+  top: 203px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullDefendedLeft {
+  left: 788px;
+  top: 187px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus9DefendedRight {
+  left: 1070px;
+  top: 413px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus8DefendedRight {
+  left: 1063px;
+  top: 401px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus7DefendedRight {
+  left: 1044px;
+  top: 374px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus6DefendedRight {
+  left: 1026px;
+  top: 334px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus5DefendedRight {
+  left: 1006px;
+  top: 291px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus4DefendedRight {
+  left: 982px;
+  top: 267px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus3DefendedRight {
+  left: 970px;
+  top: 256px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus2DefendedRight {
+  left: 959px;
+  top: 216px;
+  z-index: 925;
+}
+
+#bowSwordSmokeNpcFullMinus1DefendedRight {
+  left: 942px;
+  top: 200px;
+  z-index: 925;
+}  
+
+#bowSwordSmokeNpcFullDefendedRight {
+  left: 923px;
+  top: 188px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionNpcDefendedLeft {
+  left: 720px;
+  top: 255px;
+  z-index: 925;
+}
+
+#axeBowSwordFireworkExplosionNpcDefendedRight {
+  left: 723px;
+  top: 256px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus9DefendedLeft {
+  left: 787px;
+  top: 413px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus8DefendedLeft {
+  left: 791px;
+  top: 398px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus7DefendedLeft {
+  left: 790px;
+  top: 374px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus6DefendedLeft {
+  left: 787px;
+  top: 334px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus5DefendedLeft {
+  left: 787px;
+  top: 292px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus4DefendedLeft {
+  left: 783px;
+  top: 268px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus3DefendedLeft {
+  left: 787px;
+  top: 255px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus2DefendedLeft {
+  left: 790px;
+  top: 219px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus1DefendedLeft {
+  left: 786px;
+  top: 200px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullDefendedLeft {
+  left: 787px;
+  top: 184px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus9DefendedRight {
+  left: 1043px;
+  top: 412px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus8DefendedRight {
+  left: 1035px;
+  top: 400px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus7DefendedRight {
+  left: 1003px;
+  top: 373px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus6DefendedRight {
+  left: 981px;
+  top: 333px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus5DefendedRight {
+  left: 958px;
+  top: 290px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus4DefendedRight {
+  left: 942px;
+  top: 267px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus3DefendedRight {
+  left: 928px;
+  top: 256px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus2DefendedRight {
+  left: 903px;
+  top: 216px;
+  z-index: 925;
+}
+
+#axeBowSwordSmokeNpcFullMinus1DefendedRight {
+  left: 885px;
+  top: 197px;
+  z-index: 925;
+}  
+
+#axeBowSwordSmokeNpcFullDefendedRight {
+  left: 874px;
+  top: 184px;
+  z-index: 925;
+}
+
+#fireworkAxeNpcDefendedLeft {
+left: 842px;
+top: 260px;
+z-index: 926;
+}
+
+#fireworkAxeNpcDefendedRight {
+left: 894px;
+top: 261px;
+z-index: 926;
+}
+
+#fireworkBowNpcDefendedLeft {
+left: 819px;
+top: 233px;
+z-index: 926;
+}
+
+#fireworkBowNpcDefendedRight {
+left: 948px;
+top: 233px;
+z-index: 926;
+}
+
+#fireworkSwordNpcDefendedLeft {
+left: 802px;
+top: 204px;
+z-index: 926;
+}
+
+#fireworkSwordNpcDefendedRight {
+left: 1036px;
+top: 205px;
+z-index: 926;
+}
+
+#fireworkAxeShimmerNpcFullDefendedLeft {
+left: 834px;
+top: 248px;
+z-index: 927;
+}
+
+#fireworkAxeShimmerNpcFullDefendedRight {
+left: 881px;
+top: 248px;
+z-index: 927;
+}
+
+#fireworkBowShimmerNpcFullDefendedLeft {
+left: 811px;
+top: 224px;
+z-index: 927;
+}
+
+#fireworkBowShimmerNpcFullDefendedRight {
+left: 938px;
+top: 223px;
+z-index: 927;
+}
+
+#fireworkSwordShimmerNpcFullDefendedLeft {
+left: 796px;
+top: 193px;
+z-index: 927;
+}
+
+#fireworkSwordShimmerNpcFullDefendedRight {
+left: 1022px;
+top: 192px;
+z-index: 927;
+}
+
+/* # {
+  left: px;
+  top: px;
+}  */
+
+/*pc redWiz*/
+
+#redWizPcDefendLeft {
+  left: 794px;
+  top: 608px;
+  z-index: 999;
+}
+
+#redWizPcDefendRight {
+  left: 1000px;
+  top: 617px;
+}
+
+#redWizPc {
+  left: 792px;
+  top: 592px;
+  z-index: 1000;
+}
+
+#redWizPcStruckLeft {
+  left: 761px;
+  top: 595px;
+}
+
+#redWizPcStruckRight {
+  left: 747px;
+  top: 593px;
+}
+
+/*npc redWiz*/
+
+#redWizNpcDefendLeft {
+  left: 865px;
+  top: 123px;
+  z-index: 1010;
+}
+
+#redWizNpcDefendRight {
+  left: 958px;
+  top: 123px;
+  z-index: 1010;
+}
+
+#redWizNpc {
+  left: 848px;
+  top: 80px;  
+}
+
+#redWizNpcStruckLeft {
+  left: 844px;
+  top: 80px;
+}
+
+#redWizNpcStruckRight {
+  left: 827px;
+  top: 78px;
+}
